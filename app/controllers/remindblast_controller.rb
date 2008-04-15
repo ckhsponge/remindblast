@@ -4,40 +4,7 @@ class RemindblastController < ApplicationController
   PASSWORD = ENV['PASSWORD']
   CALENDAR_ID = ENV['CALENDAR_ID']
   
-  TIME_ZONES = [
-    'Yankee Time Zone',
-    'Samoa',
-    'Caracas',
-    'Newfoundland',
-    'Buenos Aires',
-    'Mid-Atlantic',
-    'Cape Verde Is.',
-    'Greenwich Mean Time',
-    'Pretoria',
-    'Nairobi',
-    'Abu Dhabi',
-    'Islamabad',
-    'Dhaka',
-    'Bangkok',
-    'Singapore',
-    'Tokyo',
-    'Adelaide',
-    'Guam',
-    'Lord Howe',
-    'New Caledonia',
-    'Norfolk',
-    'Fiji',
-    'Honolulu',
-    'Anchorage',
-    'Los Angeles',
-    'Denver',
-    'Chicago',
-    'New York',
-    'Auckland',
-    'Sydney',
-    'London',
-    'Rome'
-  ]
+  TIME_ZONES = Sponger::TimeZone::HUMAN_NAMES
   
   MESSAGES = [
     'Take a shower, you stink!',

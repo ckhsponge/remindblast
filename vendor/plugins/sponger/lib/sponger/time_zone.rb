@@ -43,7 +43,37 @@ class Sponger::TimeZone < Sponger::Resource
   'London'=>'Europe/London',
   'Rome'=>'Europe/Rome'
   }
-  HUMAN_NAMES = HUMANS_TO_TZIDS.keys.sort
+  HUMAN_NAMES = [
+    'Samoa',
+    'Honolulu',
+    'Anchorage',
+    'Los Angeles',
+    'Phoenix',
+    'Denver',
+    'Chicago',
+    'New York',
+    'Caracas',
+    'Newfoundland',
+    'Buenos Aires',
+    'Mid-Atlantic',
+    'Cape Verde Is.',
+    'London',
+    'Rome',
+    'Pretoria',
+    'Nairobi',
+    'Abu Dhabi',
+    'Islamabad',
+    'Dhaka',
+    'Bangkok',
+    'Singapore',
+    'Tokyo',
+    'Adelaide',
+    'Sydney',
+    'Lord Howe',
+    'New Caledonia',
+    'Norfolk',
+    'Auckland'
+  ]
   
   def self.tzid_from_human(human)
     return HUMANS_TO_TZIDS[human]
