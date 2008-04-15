@@ -46,7 +46,7 @@ x.style.display = "block";
       
       .step
         =image_tag "step_three_header.png"
-        %label Start
+        %label Date and Time
         = datetime_select :remind, :start_time
         %label Time Zone
         = select :remind, :time_zone, RemindblastController::TIME_ZONES, {:selected=>"Los Angeles"}, {:class=>'time_zone'}
