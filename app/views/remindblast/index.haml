@@ -1,26 +1,51 @@
-%h1
-  Remindblast
-- if flash[:note]
-  = flash[:note]
-  %br
-- form_for :remind, nil, :url => {:action => 'save'} do |f|
-  %p
-    Name
-    = f.text_field :name
-  %p
-    Phone
-    = f.text_field :mobile_number
-  %p
-    Email
-    = f.text_field :email
-  %p
-    Start
-    = datetime_select :remind, :start_time
-  %p
-    Time Zone
-    = select :remind, :time_zone, RemindblastController::TIME_ZONES, :selected=>"Los Angeles"
-  %p
-    Description
-    %br
-    = f.text_field :description
-  = submit_tag "Submit"
+
+.outer-container
+  =image_tag "header_background.jpg"
+  
+  .inner-container    
+    - form_for :remind, nil, :url => {:action => 'save'} do |f|
+      .step
+        =image_tag "step_one_header.png"    
+
+        %label Name
+        = f.text_field :name
+        
+        %br
+        
+        %label Description
+        = select :remind, :description, ["Take a shower, you stink!", "Lay off the drugs!"]
+
+        =image_tag "customized_messages.png"
+  
+      .step
+        =image_tag "step_two_header.png"
+
+        %label SMS Number:
+        = f.text_field :mobile_number
+        %br
+        %p - or -
+        %br
+        %label Email
+        = f.text_field :email
+      
+      .step
+        =image_tag "step_three_header.png"
+        %label Start
+        = datetime_select :remind, :start_time
+        %label Time Zone
+        = select :remind, :time_zone, RemindblastController::TIME_ZONES, :selected=>"Los Angeles"
+
+      .step-bottom
+        =image_tag "step_four_header.png"
+    
+      .clearingDiv
+    
+      .ctaRounded
+        .cta
+          = submit_tag "Sign up today"      
+          / = link_to 'Sign up today', marketing_path(:action => :sign_up), {:id => 'signUpButton'}
+          %p
+            By sending this blast, you agree to our
+            =link_to "Terms of Service"
+            ==.
+    
