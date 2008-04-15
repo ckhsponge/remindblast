@@ -11,10 +11,10 @@ x.style.display = "block";
 
 .outer-container
   = image_tag "header_background.jpg"
-  - if flash[:note]
-    = h flash[:note]
   
   .inner-container    
+    = error flash[:note]
+        
     - form_for :remind, nil, :url => {:action => 'save'} do |f|
       .step
         =image_tag "step_one_header.png"    
@@ -46,6 +46,7 @@ x.style.display = "block";
       
       .step
         =image_tag "step_three_header.png"
+        = error flash[:time]
         %label Date and Time
         = datetime_select :remind, :start_time
         %label Time Zone

@@ -174,4 +174,15 @@ select:focus        { border:1px solid #999; background:#fff; }
 #custom_section {
 		display: none;
 }
- */
+
+#error {
+	background: url("/images/errorbg.png");
+	width: 236px;
+	height: 34px;
+	color: #333;
+	font-family: Verdana;
+	font-size: 12px;
+	line-height: 16px;
+	padding: 8px 10px 8px 54px;
+	margin:10px 0px;
+}

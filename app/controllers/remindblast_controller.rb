@@ -55,8 +55,11 @@ class RemindblastController < ApplicationController
     'In-laws arriving today, leave town.',
     'Leave the gun. Take the cannolis.',
     'You\'re so money, and you don\'t even know it.',
+    'Cut my toenails and get a haircut.',
     'Other'
   ]
+  
+  SPONSOR_URL = "http://spongecell.com"
   
   def index
     
@@ -70,7 +73,7 @@ class RemindblastController < ApplicationController
       description = "Hey #{params[:remind][:name]}, #{title}" unless params[:remind][:name].empty?
       start_time = parse_time(params[:remind],:start_time)
       if !start_time || Time.now+1.minutes>=start_time
-        flash.now[:note] = "Reminder time must be in the future!"
+        flash.now[:time] = "Reminder time must be in the future!"
         render :action=>"index"
         return
       end
