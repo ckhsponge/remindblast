@@ -1,0 +1,26 @@
+%h1
+  Remindblast
+- if flash[:note]
+  = flash[:note]
+  %br
+- form_for :remind, nil, :url => {:action => 'save'} do |f|
+  %p
+    Name
+    = f.text_field :name
+  %p
+    Phone
+    = f.text_field :mobile_number
+  %p
+    Email
+    = f.text_field :email
+  %p
+    Start
+    = datetime_select :remind, :start_time
+  %p
+    Time Zone
+    = select :remind, :time_zone, RemindblastController::TIME_ZONES, :selected=>"Los Angeles"
+  %p
+    Description
+    %br
+    = f.text_field :description
+  = submit_tag "Submit"

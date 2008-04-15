@@ -1,0 +1,1575 @@
+# Logfile created on Mon Apr 14 14:12:52 -0700 2008
+
+Processing SpongewolfController#sign_in (for 127.0.0.1 at 2008-04-14 14:13:14) [GET]
+  Session ID: 07ba70dd9819bf86757841eea39eef80
+  Parameters: {"action"=>"sign_in", "controller"=>"spongewolf"}
+Rendering template within layouts/spongewolf
+Rendering spongewolf/sign_in
+Completed in 0.01104 (90 reqs/sec) | Rendering: 0.00882 (79%) | 200 OK [http://127.0.0.1/]
+
+
+Processing SpongewolfController#sign_in (for 127.0.0.1 at 2008-04-14 14:13:22) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"sign_in", "controller"=>"spongewolf"}
+Rendering template within layouts/spongewolf
+Rendering spongewolf/sign_in
+Completed in 0.00578 (173 reqs/sec) | Rendering: 0.00324 (56%) | 200 OK [http://127.0.0.1/]
+
+
+Processing SpongewolfController#sign_in (for 127.0.0.1 at 2008-04-14 14:13:23) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"sign_in", "controller"=>"spongewolf"}
+Rendering template within layouts/spongewolf
+Rendering spongewolf/sign_in
+Completed in 0.00547 (182 reqs/sec) | Rendering: 0.00318 (58%) | 200 OK [http://127.0.0.1/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-04-14 14:15:01) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"index", "controller"=>"remindblast"}
+
+
+LoadError (Expected /Users/ckh/dev/remindblast/app/controllers/remindblast_controller.rb to define RemindblastController):
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:249:in `load_missing_constant'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:453:in `const_missing'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:465:in `const_missing'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/inflector.rb:257:in `constantize'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/string/inflections.rb:148:in `constantize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1426:in `recognize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:155:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:281
+    /usr/bin/mongrel_rails:16:in `load'
+    /usr/bin/mongrel_rails:16
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemindblastController#index (for 127.0.0.1 at 2008-04-14 14:15:20) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"index", "controller"=>"remindblast"}
+
+
+ActiveResource::ServerError (Failed with 500 Internal Server Error):
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/connection.rb:139:in `handle_response'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/connection.rb:112:in `request'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/connection.rb:101:in `post'
+    /vendor/plugins/sponger/lib/sponger/authorization_token.rb:10:in `create'
+    /app/controllers/remindblast_controller.rb:13:in `init_session'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:469:in `send!'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:469:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:441:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:716:in `run_before_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:695:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `sass_old_process'
+    /Library/Ruby/Gems/1.8/gems/haml-1.8.1/lib/sass/plugin/rails.rb:15:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:155:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:281
+    /usr/bin/mongrel_rails:16:in `load'
+    /usr/bin/mongrel_rails:16
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-04-14 14:15:55) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"key"=>""}
+
+
+ActionController::RoutingError (No route matches "/rss/events/ckh" with {:method=>:get}):
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:155:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:281
+    /usr/bin/mongrel_rails:16:in `load'
+    /usr/bin/mongrel_rails:16
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing RemindblastController#index (for 127.0.0.1 at 2008-04-14 14:16:10) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"index", "controller"=>"remindblast"}
+Rendering remindblast/index
+Completed in 0.18124 (5 reqs/sec) | Rendering: 0.00222 (1%) | 200 OK [http://127.0.0.1/]
+
+
+Processing RemindblastController#index (for 127.0.0.1 at 2008-04-14 14:26:26) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"index", "controller"=>"remindblast"}
+Rendering remindblast/index
+Completed in 0.44395 (2 reqs/sec) | Rendering: 0.00752 (1%) | 200 OK [http://127.0.0.1/]
+
+
+Processing RemindblastController#save (for 127.0.0.1 at 2008-04-14 14:26:33) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0f26972d5ce5664245e312867ca07b90b89b2875", "action"=>"save", "controller"=>"remindblast", "remind"=>{"start_time(1i)"=>"2008", "start_time(2i)"=>"4", "start_time(3i)"=>"14", "start_time(4i)"=>"14", "start_time(5i)"=>"26", "description"=>"fdsdfssdf", "phone"=>"", "time_zone"=>"Abu Dhabi", "email"=>""}}
+Rendering remindblast/index
+Completed in 0.36586 (2 reqs/sec) | Rendering: 0.00546 (1%) | 200 OK [http://127.0.0.1/remindblast/save]
+
+
+Processing RemindblastController#save (for 127.0.0.1 at 2008-04-14 14:30:44) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0f26972d5ce5664245e312867ca07b90b89b2875", "action"=>"save", "controller"=>"remindblast", "remind"=>{"start_time(1i)"=>"2008", "start_time(2i)"=>"4", "start_time(3i)"=>"14", "start_time(4i)"=>"14", "start_time(5i)"=>"26", "description"=>"fdsdfssdf", "phone"=>"", "time_zone"=>"Abu Dhabi", "email"=>""}}
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+    /app/controllers/remindblast_controller.rb:13:in `save'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `sass_old_process'
+    /Library/Ruby/Gems/1.8/gems/haml-1.8.1/lib/sass/plugin/rails.rb:15:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:155:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:281
+    /usr/bin/mongrel_rails:16:in `load'
+    /usr/bin/mongrel_rails:16
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemindblastController#save (for 127.0.0.1 at 2008-04-14 14:31:26) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0f26972d5ce5664245e312867ca07b90b89b2875", "action"=>"save", "controller"=>"remindblast", "remind"=>{"start_time(1i)"=>"2008", "start_time(2i)"=>"4", "start_time(3i)"=>"14", "start_time(4i)"=>"14", "start_time(5i)"=>"26", "description"=>"fdsdfssdf", "phone"=>"", "time_zone"=>"Abu Dhabi", "email"=>""}}
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+    /app/controllers/remindblast_controller.rb:13:in `save'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `sass_old_process'
+    /Library/Ruby/Gems/1.8/gems/haml-1.8.1/lib/sass/plugin/rails.rb:15:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:155:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:281
+    /usr/bin/mongrel_rails:16:in `load'
+    /usr/bin/mongrel_rails:16
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemindblastController#save (for 127.0.0.1 at 2008-04-14 14:32:37) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0f26972d5ce5664245e312867ca07b90b89b2875", "action"=>"save", "controller"=>"remindblast", "remind"=>{"start_time(1i)"=>"2008", "start_time(2i)"=>"4", "start_time(3i)"=>"14", "start_time(4i)"=>"14", "start_time(5i)"=>"26", "description"=>"fdsdfssdf", "phone"=>"", "time_zone"=>"Abu Dhabi", "email"=>""}}
+
+
+NoMethodError (undefined method `parse_time' for #<RemindblastController:0x1b369dc>):
+    /app/controllers/remindblast_controller.rb:14:in `save'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `sass_old_process'
+    /Library/Ruby/Gems/1.8/gems/haml-1.8.1/lib/sass/plugin/rails.rb:15:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:155:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:281
+    /usr/bin/mongrel_rails:16:in `load'
+    /usr/bin/mongrel_rails:16
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemindblastController#save (for 127.0.0.1 at 2008-04-14 14:33:02) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0f26972d5ce5664245e312867ca07b90b89b2875", "action"=>"save", "controller"=>"remindblast", "remind"=>{"start_time(1i)"=>"2008", "start_time(2i)"=>"4", "start_time(3i)"=>"14", "start_time(4i)"=>"14", "start_time(5i)"=>"26", "description"=>"fdsdfssdf", "phone"=>"", "time_zone"=>"Abu Dhabi", "email"=>""}}
+
+
+ArgumentError (expected an attributes Hash, got "Title cannot be blank"):
+    /vendor/plugins/sponger/lib/rails_patches.rb:51:in `load'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:811:in `load_attributes_from_response'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:805:in `create'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/object/misc.rb:28:in `returning'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:803:in `create'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:636:in `save_without_validation'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/validations.rb:262:in `save'
+    /app/controllers/remindblast_controller.rb:19:in `save'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `sass_old_process'
+    /Library/Ruby/Gems/1.8/gems/haml-1.8.1/lib/sass/plugin/rails.rb:15:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:155:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:281
+    /usr/bin/mongrel_rails:16:in `load'
+    /usr/bin/mongrel_rails:16
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemindblastController#save (for 127.0.0.1 at 2008-04-14 14:33:41) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0f26972d5ce5664245e312867ca07b90b89b2875", "action"=>"save", "controller"=>"remindblast", "remind"=>{"start_time(1i)"=>"2008", "start_time(2i)"=>"4", "start_time(3i)"=>"14", "start_time(4i)"=>"14", "start_time(5i)"=>"26", "description"=>"fdsdfssdf", "phone"=>"", "time_zone"=>"Abu Dhabi", "email"=>""}}
+Rendering remindblast/index
+Completed in 4.64361 (0 reqs/sec) | Rendering: 0.00411 (0%) | 200 OK [http://127.0.0.1/remindblast/save?authenticity_token=0f26972d5ce5664245e312867ca07b90b89b2875&commit=Submit&remind%5Bdescription%5D=fdsdfssdf&remind%5Bemail%5D=&remind%5Bphone%5D=&remind%5Bstart_time%281i%29%5D=2008&remind%5Bstart_time%282i%29%5D=4&remind%5Bstart_time%283i%29%5D=14&remind%5Bstart_time%284i%29%5D=14&remind%5Bstart_time%285i%29%5D=26&remind%5Btime_zone%5D=Abu+Dhabi]
+
+
+Processing RemindblastController#save (for 127.0.0.1 at 2008-04-14 14:36:14) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0f26972d5ce5664245e312867ca07b90b89b2875", "action"=>"save", "controller"=>"remindblast", "remind"=>{"start_time(1i)"=>"2008", "start_time(2i)"=>"4", "start_time(3i)"=>"14", "start_time(4i)"=>"14", "start_time(5i)"=>"26", "description"=>"fdsdfssdf", "phone"=>"", "time_zone"=>"Abu Dhabi", "email"=>""}}
+Rendering remindblast/index
+Completed in 25.49059 (0 reqs/sec) | Rendering: 0.00402 (0%) | 200 OK [http://127.0.0.1/remindblast/save?authenticity_token=0f26972d5ce5664245e312867ca07b90b89b2875&commit=Submit&remind%5Bdescription%5D=fdsdfssdf&remind%5Bemail%5D=&remind%5Bphone%5D=&remind%5Bstart_time%281i%29%5D=2008&remind%5Bstart_time%282i%29%5D=4&remind%5Bstart_time%283i%29%5D=14&remind%5Bstart_time%284i%29%5D=14&remind%5Bstart_time%285i%29%5D=26&remind%5Btime_zone%5D=Abu+Dhabi]
+
+
+Processing RemindblastController#save (for 127.0.0.1 at 2008-04-14 14:48:34) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0f26972d5ce5664245e312867ca07b90b89b2875", "action"=>"save", "controller"=>"remindblast", "remind"=>{"start_time(1i)"=>"2008", "start_time(2i)"=>"4", "start_time(3i)"=>"14", "start_time(4i)"=>"14", "start_time(5i)"=>"26", "description"=>"fdsdfssdf", "phone"=>"", "time_zone"=>"Abu Dhabi", "email"=>""}}
+
+
+ArgumentError (expected an attributes Hash, got "Cannot set a reminder before today"):
+    /vendor/plugins/sponger/lib/rails_patches.rb:51:in `load'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:811:in `load_attributes_from_response'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:805:in `create'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/object/misc.rb:28:in `returning'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:803:in `create'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:636:in `save_without_validation'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/validations.rb:262:in `save'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:339:in `create'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/object/misc.rb:28:in `returning'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:339:in `create'
+    /app/controllers/remindblast_controller.rb:23:in `save'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `sass_old_process'
+    /Library/Ruby/Gems/1.8/gems/haml-1.8.1/lib/sass/plugin/rails.rb:15:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:155:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:281
+    /usr/bin/mongrel_rails:16:in `load'
+    /usr/bin/mongrel_rails:16
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemindblastController#save (for 127.0.0.1 at 2008-04-14 14:49:05) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0f26972d5ce5664245e312867ca07b90b89b2875", "action"=>"save", "controller"=>"remindblast", "remind"=>{"start_time(1i)"=>"2008", "start_time(2i)"=>"4", "start_time(3i)"=>"14", "start_time(4i)"=>"14", "start_time(5i)"=>"26", "description"=>"fdsdfssdf", "phone"=>"", "time_zone"=>"Abu Dhabi", "email"=>""}}
+
+
+ArgumentError (expected an attributes Hash, got "Cannot set a reminder before today"):
+    /vendor/plugins/sponger/lib/rails_patches.rb:51:in `load'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:811:in `load_attributes_from_response'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:805:in `create'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/object/misc.rb:28:in `returning'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:803:in `create'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:636:in `save_without_validation'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/validations.rb:262:in `save'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:339:in `create'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/object/misc.rb:28:in `returning'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:339:in `create'
+    /app/controllers/remindblast_controller.rb:23:in `save'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `sass_old_process'
+    /Library/Ruby/Gems/1.8/gems/haml-1.8.1/lib/sass/plugin/rails.rb:15:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:155:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:281
+    /usr/bin/mongrel_rails:16:in `load'
+    /usr/bin/mongrel_rails:16
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemindblastController#save (for 127.0.0.1 at 2008-04-14 14:50:01) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"save", "controller"=>"remindblast"}
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+    /app/controllers/remindblast_controller.rb:13:in `save'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `sass_old_process'
+    /Library/Ruby/Gems/1.8/gems/haml-1.8.1/lib/sass/plugin/rails.rb:15:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:155:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:281
+    /usr/bin/mongrel_rails:16:in `load'
+    /usr/bin/mongrel_rails:16
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemindblastController#index (for 127.0.0.1 at 2008-04-14 14:50:11) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"index", "controller"=>"remindblast"}
+Rendering remindblast/index
+Completed in 0.24699 (4 reqs/sec) | Rendering: 0.00399 (1%) | 200 OK [http://127.0.0.1/]
+
+
+Processing RemindblastController#save (for 127.0.0.1 at 2008-04-14 14:50:36) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0f26972d5ce5664245e312867ca07b90b89b2875", "action"=>"save", "controller"=>"remindblast", "remind"=>{"start_time(1i)"=>"2008", "start_time(2i)"=>"4", "start_time(3i)"=>"14", "start_time(4i)"=>"14", "start_time(5i)"=>"53", "description"=>"dec", "phone"=>"", "time_zone"=>"Los Angeles", "email"=>"ckhobbs+z1@gmail.com"}}
+Rendering remindblast/index
+Completed in 5.30806 (0 reqs/sec) | Rendering: 0.00446 (0%) | 200 OK [http://127.0.0.1/remindblast/save]
+
+
+Processing RemindblastController#save (for 127.0.0.1 at 2008-04-14 14:55:46) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0f26972d5ce5664245e312867ca07b90b89b2875", "action"=>"save", "controller"=>"remindblast", "remind"=>{"start_time(1i)"=>"2008", "start_time(2i)"=>"4", "start_time(3i)"=>"14", "start_time(4i)"=>"14", "start_time(5i)"=>"53", "description"=>"dec", "phone"=>"", "time_zone"=>"Los Angeles", "email"=>"ckhobbs+z1@gmail.com"}}
+
+
+ArgumentError (expected an attributes Hash, got "Cannot set a reminder before today"):
+    /vendor/plugins/sponger/lib/rails_patches.rb:51:in `load'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:811:in `load_attributes_from_response'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:805:in `create'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/object/misc.rb:28:in `returning'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:803:in `create'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:636:in `save_without_validation'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/validations.rb:262:in `save'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:339:in `create'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/object/misc.rb:28:in `returning'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:339:in `create'
+    /app/controllers/remindblast_controller.rb:24:in `save'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `sass_old_process'
+    /Library/Ruby/Gems/1.8/gems/haml-1.8.1/lib/sass/plugin/rails.rb:15:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:155:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:281
+    /usr/bin/mongrel_rails:16:in `load'
+    /usr/bin/mongrel_rails:16
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemindblastController#save (for 127.0.0.1 at 2008-04-14 14:56:21) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0f26972d5ce5664245e312867ca07b90b89b2875", "action"=>"save", "controller"=>"remindblast", "remind"=>{"start_time(1i)"=>"2008", "start_time(2i)"=>"4", "start_time(3i)"=>"14", "start_time(4i)"=>"14", "start_time(5i)"=>"53", "description"=>"dec", "phone"=>"", "time_zone"=>"Los Angeles", "email"=>"ckhobbs+z1@gmail.com"}}
+
+
+ArgumentError (expected an attributes Hash, got "Cannot set a reminder before today"):
+    /vendor/plugins/sponger/lib/rails_patches.rb:51:in `load'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:811:in `load_attributes_from_response'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:805:in `create'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/object/misc.rb:28:in `returning'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:803:in `create'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:636:in `save_without_validation'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/validations.rb:262:in `save'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:339:in `create'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/object/misc.rb:28:in `returning'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:339:in `create'
+    /app/controllers/remindblast_controller.rb:24:in `save'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `sass_old_process'
+    /Library/Ruby/Gems/1.8/gems/haml-1.8.1/lib/sass/plugin/rails.rb:15:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:155:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:281
+    /usr/bin/mongrel_rails:16:in `load'
+    /usr/bin/mongrel_rails:16
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemindblastController#index (for 127.0.0.1 at 2008-04-14 14:56:36) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"index", "controller"=>"remindblast"}
+
+
+Timeout::Error (execution expired):
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:54:in `rbuf_fill'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:56:in `timeout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:76:in `timeout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/protocol.rb:132:in `rbuf_fill'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/protocol.rb:116:in `readuntil'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/protocol.rb:126:in `readline'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:2029:in `read_status_line'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:2018:in `read_new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:1059:in `request'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:1046:in `request'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:547:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:1044:in `request'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:854:in `post'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/connection.rb:110:in `send'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/connection.rb:110:in `request'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:307:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/connection.rb:110:in `request'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/connection.rb:101:in `post'
+    /vendor/plugins/sponger/lib/sponger/authorization_token.rb:10:in `create'
+    /app/controllers/remindblast_controller.rb:32:in `init_session'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:469:in `send!'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:469:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:441:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:716:in `run_before_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:695:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `sass_old_process'
+    /Library/Ruby/Gems/1.8/gems/haml-1.8.1/lib/sass/plugin/rails.rb:15:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:155:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:281
+    /usr/bin/mongrel_rails:16:in `load'
+    /usr/bin/mongrel_rails:16
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemindblastController#index (for 127.0.0.1 at 2008-04-14 14:57:51) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"index", "controller"=>"remindblast"}
+Rendering remindblast/index
+Completed in 0.00743 (134 reqs/sec) | Rendering: 0.00522 (70%) | 200 OK [http://127.0.0.1/]
+
+
+Processing RemindblastController#save (for 127.0.0.1 at 2008-04-14 14:58:09) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0f26972d5ce5664245e312867ca07b90b89b2875", "action"=>"save", "controller"=>"remindblast", "remind"=>{"start_time(1i)"=>"2008", "start_time(2i)"=>"4", "start_time(3i)"=>"14", "start_time(4i)"=>"14", "start_time(5i)"=>"59", "mobile_number"=>"4157105887", "description"=>"Take a shower, you stink.", "time_zone"=>"Los Angeles", "email"=>""}}
+
+
+Timeout::Error (execution expired):
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:54:in `rbuf_fill'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:56:in `timeout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:76:in `timeout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/protocol.rb:132:in `rbuf_fill'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/protocol.rb:116:in `readuntil'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/protocol.rb:126:in `readline'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:2029:in `read_status_line'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:2018:in `read_new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:1059:in `request'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:1046:in `request'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:547:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:1044:in `request'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:854:in `post'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/connection.rb:110:in `send'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/connection.rb:110:in `request'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:307:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/connection.rb:110:in `request'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/connection.rb:101:in `post'
+    /vendor/plugins/sponger/lib/sponger/authorization_token.rb:10:in `create'
+    /app/controllers/remindblast_controller.rb:32:in `init_session'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:469:in `send!'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:469:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:441:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:716:in `run_before_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:695:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `sass_old_process'
+    /Library/Ruby/Gems/1.8/gems/haml-1.8.1/lib/sass/plugin/rails.rb:15:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:155:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:281
+    /usr/bin/mongrel_rails:16:in `load'
+    /usr/bin/mongrel_rails:16
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemindblastController#save (for 127.0.0.1 at 2008-04-14 15:00:12) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0f26972d5ce5664245e312867ca07b90b89b2875", "action"=>"save", "controller"=>"remindblast", "remind"=>{"start_time(1i)"=>"2008", "start_time(2i)"=>"4", "start_time(3i)"=>"14", "start_time(4i)"=>"14", "start_time(5i)"=>"59", "mobile_number"=>"4157105887", "description"=>"Take a shower, you stink.", "time_zone"=>"Los Angeles", "email"=>""}}
+
+
+ArgumentError (expected an attributes Hash, got "Cannot set a reminder before today"):
+    /vendor/plugins/sponger/lib/rails_patches.rb:51:in `load'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:811:in `load_attributes_from_response'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:805:in `create'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/object/misc.rb:28:in `returning'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:803:in `create'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:636:in `save_without_validation'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/validations.rb:262:in `save'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:339:in `create'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/object/misc.rb:28:in `returning'
+    /Library/Ruby/Gems/1.8/gems/activeresource-2.0.2/lib/active_resource/base.rb:339:in `create'
+    /app/controllers/remindblast_controller.rb:24:in `save'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `sass_old_process'
+    /Library/Ruby/Gems/1.8/gems/haml-1.8.1/lib/sass/plugin/rails.rb:15:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:155:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:281
+    /usr/bin/mongrel_rails:16:in `load'
+    /usr/bin/mongrel_rails:16
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemindblastController#index (for 127.0.0.1 at 2008-04-14 15:01:42) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"index", "controller"=>"remindblast"}
+Rendering remindblast/index
+ERROR: compiling _run_template_47app47views47remindblast47index46haml RAISED compile error
+/Users/ckh/dev/remindblast/app/views/remindblast/index.haml:6: syntax error, unexpected tASSOC, expecting ')'
+_hamlout.push_text("<br />\n");end; form_for :remind, nil, :url => (:action => 'save') do |f|;
+                                                                              ^
+Function body: def _run_template_47app47views47remindblast47index46haml(local_assigns)
+extend Haml::Helpers;@haml_stack ||= Array.new;@haml_stack.push(Haml::Buffer.new({:attr_wrapper=>"'"}));@haml_is_haml = true;_hamlout = @haml_stack[-1];_erbout = _hamlout.buffer;;
+
+
+_hamlout.push_text("<h1>\n  Remindblast\n</h1>\n"); if flash[:note];
+haml_temp =  flash[:note];
+haml_temp = _hamlout.push_script(haml_temp, false, nil);
+_hamlout.push_text("<br />\n");end; form_for :remind, nil, :url => (:action => 'save') do |f|;
+
+
+_hamlout.push_text("<p>\n  Phone\n", 1);haml_temp =  f.text_field :mobile_number;
+haml_temp = _hamlout.push_script(haml_temp, false, nil);
+
+_hamlout.push_text("</p>\n<p>\n  Email\n");haml_temp =  f.text_field :email;
+haml_temp = _hamlout.push_script(haml_temp, false, nil);
+
+_hamlout.push_text("</p>\n<p>\n  Start\n");haml_temp =  datetime_select :remind, :start_time;
+haml_temp = _hamlout.push_script(haml_temp, false, nil);
+
+_hamlout.push_text("</p>\n<p>\n  Time Zone\n");haml_temp =  select :remind, :time_zone, Sponger::TimeZone::HUMAN_NAMES;
+haml_temp = _hamlout.push_script(haml_temp, false, nil);
+
+
+_hamlout.push_text("</p>\n<p>\n  Description\n  <br />\n");haml_temp =  f.text_field :description;
+haml_temp = _hamlout.push_script(haml_temp, false, nil);_hamlout.push_text("</p>\n", -1);haml_temp =  submit_tag "Submit";
+haml_temp = _hamlout.push_script(haml_temp, false, nil);end;
+@haml_is_haml = false;@haml_stack.pop.buffer;
+end
+Backtrace: /Users/ckh/dev/remindblast/app/views/remindblast/index.haml:26:in `compile_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:630:in `compile_and_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:365:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:316:in `render_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1100:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:836:in `render_with_no_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/layout.rb:270:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1153:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1159:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `sass_old_process'
+/Library/Ruby/Gems/1.8/gems/haml-1.8.1/lib/sass/plugin/rails.rb:15:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:76:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:155:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:282:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:128:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/command.rb:212:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:281
+/usr/bin/mongrel_rails:16:in `load'
+/usr/bin/mongrel_rails:16
+
+
+ActionView::TemplateError (compile error
+/Users/ckh/dev/remindblast/app/views/remindblast/index.haml:6: syntax error, unexpected tASSOC, expecting ')'
+_hamlout.push_text("<br />\n");end; form_for :remind, nil, :url => (:action => 'save') do |f|;
+                                                                              ^) on line #6 of remindblast/index.haml:
+3: - if flash[:note]
+4:   = flash[:note]
+5:   %br
+6: - form_for :remind, nil, :url => (:action => 'save') do |f|
+7:   %p
+8:     Phone
+9:     = f.text_field :mobile_number
+
+    app/views/remindblast/index.haml:26:in `compile_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:630:in `compile_and_render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:365:in `render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:316:in `render_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1100:in `render_for_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:836:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/layout.rb:270:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1153:in `default_render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1159:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `sass_old_process'
+    /Library/Ruby/Gems/1.8/gems/haml-1.8.1/lib/sass/plugin/rails.rb:15:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:155:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:154:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:281:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:281:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:264:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:264:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:264:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:281
+    /usr/bin/mongrel_rails:16:in `load'
+    /usr/bin/mongrel_rails:16
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemindblastController#index (for 127.0.0.1 at 2008-04-14 15:02:01) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"index", "controller"=>"remindblast"}
+Rendering remindblast/index
+Completed in 0.00703 (142 reqs/sec) | Rendering: 0.00491 (69%) | 200 OK [http://127.0.0.1/]
+
+
+Processing RemindblastController#save (for 127.0.0.1 at 2008-04-14 15:02:20) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0f26972d5ce5664245e312867ca07b90b89b2875", "action"=>"save", "controller"=>"remindblast", "remind"=>{"start_time(1i)"=>"2008", "start_time(2i)"=>"4", "start_time(3i)"=>"14", "start_time(4i)"=>"15", "start_time(5i)"=>"04", "mobile_number"=>"4157105887", "description"=>"Take a shower, you stink.", "time_zone"=>"Los Angeles", "email"=>""}}
+Rendering remindblast/index
+Completed in 7.78069 (0 reqs/sec) | Rendering: 0.00417 (0%) | 200 OK [http://127.0.0.1/remindblast/save]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-04-14 15:15:56) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"key"=>""}
+
+
+ActionController::RoutingError (No route matches "/rss/events/ckh" with {:method=>:get}):
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:155:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:281
+    /usr/bin/mongrel_rails:16:in `load'
+    /usr/bin/mongrel_rails:16
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing RemindblastController#save (for 127.0.0.1 at 2008-04-14 15:45:52) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0f26972d5ce5664245e312867ca07b90b89b2875", "action"=>"save", "controller"=>"remindblast", "remind"=>{"start_time(1i)"=>"2008", "start_time(2i)"=>"4", "start_time(3i)"=>"14", "start_time(4i)"=>"16", "start_time(5i)"=>"02", "mobile_number"=>"", "description"=>"Give up!", "time_zone"=>"Los Angeles", "email"=>"ckhobbs+z2@gmail.com"}}
+Rendering remindblast/list
+ERROR: compiling _run_template_47app47views47remindblast47list46haml RAISED compile error
+/Users/ckh/dev/remindblast/app/views/remindblast/list.haml:4: syntax error, unexpected '}', expecting ']'
+haml_temp =  h flash[:note};
+                           ^
+Function body: def _run_template_47app47views47remindblast47list46haml(local_assigns)
+extend Haml::Helpers;@haml_stack ||= Array.new;@haml_stack.push(Haml::Buffer.new({:attr_wrapper=>"'"}));@haml_is_haml = true;_hamlout = @haml_stack[-1];_erbout = _hamlout.buffer;;
+
+
+_hamlout.push_text("<h1>\n  Remind Blast\n</h1>\n"); if flash[:note];
+haml_temp =  h flash[:note};
+haml_temp = _hamlout.push_script(haml_temp, false, nil);
+_hamlout.push_text("<br />\n");end;
+
+_hamlout.push_text("<div style='width:500px;height:18px;background:#318BDE;'><a style='color:white;margin-left:5px;text-decoration:none;font-family:Helvetica,Arial;font-size:10pt;background-color:#318BDE;' href='http://spongecell.com/event_list'>Flash Calendar by Spongecell</a></div><div  style='width:500px;height:432px'><object type=\"application/x-shockwave-flash\" allowScriptAccess=\"always\" allowNetworking=\"all\" height=\"450\" width=\"500\" data=\"http://spongecell.com/flash/download/4687/list_view.swf?imgHost=http%3A%2F%2Fstatics%2Espongecell%2Ecom%2Fcrossdomain%2Exml&w=4687&sTB=false&aU=http%3A%2F%2Fspongecell.com%2Fapi%2F&\"  ><param name=\"allowScriptAccess\" value=\"always\"/><param name=\"allowNetworking\" value=\"all\"/><param name=\"movie\" value=\"http://spongecell.com/flash/download/4687/list_view.swf?imgHost=http%3A%2F%2Fstatics%2Espongecell%2Ecom%2Fcrossdomain%2Exml&w=4687&sTB=false&aU=http%3A%2F%2Fspongecell.com%2Fapi%2F&\"/></object></div>\n");@haml_is_haml = false;@haml_stack.pop.buffer;
+end
+Backtrace: /Users/ckh/dev/remindblast/app/views/remindblast/list.haml:9:in `compile_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:630:in `compile_and_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:365:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:316:in `render_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1100:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:858:in `render_with_no_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:872:in `render_with_no_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/layout.rb:270:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/ckh/dev/remindblast/app/controllers/remindblast_controller.rb:26:in `save'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `sass_old_process'
+/Library/Ruby/Gems/1.8/gems/haml-1.8.1/lib/sass/plugin/rails.rb:15:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:76:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:155:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:282:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:128:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/command.rb:212:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:281
+/usr/bin/mongrel_rails:16:in `load'
+/usr/bin/mongrel_rails:16
+
+
+ActionView::TemplateError (compile error
+/Users/ckh/dev/remindblast/app/views/remindblast/list.haml:4: syntax error, unexpected '}', expecting ']'
+haml_temp =  h flash[:note};
+                           ^) on line #4 of remindblast/list.haml:
+1: %h1
+2:   Remind Blast
+3: - if flash[:note]
+4:   = h flash[:note}
+5:   %br
+6: <div style='width:500px;height:18px;background:#318BDE;'><a style='color:white;margin-left:5px;text-decoration:none;font-family:Helvetica,Arial;font-size:10pt;background-color:#318BDE;' href='http://spongecell.com/event_list'>Flash Calendar by Spongecell</a></div><div  style='width:500px;height:432px'><object type="application/x-shockwave-flash" allowScriptAccess="always" allowNetworking="all" height="450" width="500" data="http://spongecell.com/flash/download/4687/list_view.swf?imgHost=http%3A%2F%2Fstatics%2Espongecell%2Ecom%2Fcrossdomain%2Exml&w=4687&sTB=false&aU=http%3A%2F%2Fspongecell.com%2Fapi%2F&"  ><param name="allowScriptAccess" value="always"/><param name="allowNetworking" value="all"/><param name="movie" value="http://spongecell.com/flash/download/4687/list_view.swf?imgHost=http%3A%2F%2Fstatics%2Espongecell%2Ecom%2Fcrossdomain%2Exml&w=4687&sTB=false&aU=http%3A%2F%2Fspongecell.com%2Fapi%2F&"/></object></div>
+    app/views/remindblast/list.haml:9:in `compile_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:630:in `compile_and_render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:365:in `render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:316:in `render_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1100:in `render_for_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:858:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:872:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/layout.rb:270:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+    app/controllers/remindblast_controller.rb:26:in `save'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `sass_old_process'
+    /Library/Ruby/Gems/1.8/gems/haml-1.8.1/lib/sass/plugin/rails.rb:15:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:155:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:154:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:281:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:281:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:264:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:264:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:264:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:281
+    /usr/bin/mongrel_rails:16:in `load'
+    /usr/bin/mongrel_rails:16
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemindblastController#save (for 127.0.0.1 at 2008-04-14 15:49:42) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0f26972d5ce5664245e312867ca07b90b89b2875", "action"=>"save", "controller"=>"remindblast", "remind"=>{"start_time(1i)"=>"2008", "start_time(2i)"=>"4", "start_time(3i)"=>"14", "start_time(4i)"=>"16", "start_time(5i)"=>"02", "mobile_number"=>"", "description"=>"Give up!", "time_zone"=>"Los Angeles", "email"=>"ckhobbs+z2@gmail.com"}}
+Rendering remindblast/list
+Completed in 7.12505 (0 reqs/sec) | Rendering: 0.00273 (0%) | 200 OK [http://127.0.0.1/remindblast/save]
+
+
+Processing RemindblastController#list (for 127.0.0.1 at 2008-04-14 15:51:00) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"list", "controller"=>"remindblast"}
+Rendering remindblast/list
+Completed in 0.00458 (218 reqs/sec) | Rendering: 0.00195 (42%) | 200 OK [http://127.0.0.1/remindblast/list]
+
+
+Processing RemindblastController#list (for 127.0.0.1 at 2008-04-14 15:51:11) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"list", "controller"=>"remindblast"}
+Rendering remindblast/list
+Completed in 0.00595 (167 reqs/sec) | Rendering: 0.00307 (51%) | 200 OK [http://127.0.0.1/remindblast/list]
+
+
+Processing RemindblastController#list (for 127.0.0.1 at 2008-04-14 15:51:25) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"list", "controller"=>"remindblast"}
+Rendering remindblast/list
+Completed in 0.00476 (210 reqs/sec) | Rendering: 0.00218 (45%) | 200 OK [http://127.0.0.1/remindblast/list]
+
+
+Processing RemindblastController#index (for 127.0.0.1 at 2008-04-14 15:51:35) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"index", "controller"=>"remindblast"}
+Rendering remindblast/index
+Completed in 0.00703 (142 reqs/sec) | Rendering: 0.00473 (67%) | 200 OK [http://127.0.0.1/]
+
+
+Processing RemindblastController#index (for 127.0.0.1 at 2008-04-14 16:00:26) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"index", "controller"=>"remindblast"}
+Rendering remindblast/index
+
+
+ActionView::TemplateError (uninitialized constant ActionView::Base::CompiledTemplates::RemindBlastController) on line #18 of remindblast/index.haml:
+15:     = datetime_select :remind, :start_time
+16:   %p
+17:     Time Zone
+18:     = select :remind, :time_zone, RemindBlastController::TIME_ZONES
+19:   %p
+20:     Description
+21:     %br
+
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:263:in `load_missing_constant'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:453:in `const_missing'
+    app/views/remindblast/index.haml:18:in `_run_template_47app47views47remindblast47index46haml'
+    /Library/Ruby/Gems/1.8/gems/haml-1.8.1/lib/haml/helpers/action_view_mods.rb:72:in `call'
+    /Library/Ruby/Gems/1.8/gems/haml-1.8.1/lib/haml/helpers/action_view_mods.rb:72:in `form_for'
+    /Library/Ruby/Gems/1.8/gems/haml-1.8.1/lib/haml/helpers.rb:327:in `call'
+    /Library/Ruby/Gems/1.8/gems/haml-1.8.1/lib/haml/helpers.rb:327:in `bind_proc'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/helpers/form_helper.rb:248:in `fields_for'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/helpers/form_helper.rb:184:in `form_for_without_haml'
+    /Library/Ruby/Gems/1.8/gems/haml-1.8.1/lib/haml/helpers/action_view_mods.rb:76:in `form_for'
+    app/views/remindblast/index.haml:6:in `_run_template_47app47views47remindblast47index46haml'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:637:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:637:in `compile_and_render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:365:in `render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:316:in `render_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1100:in `render_for_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:836:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/layout.rb:270:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1153:in `default_render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1159:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `sass_old_process'
+    /Library/Ruby/Gems/1.8/gems/haml-1.8.1/lib/sass/plugin/rails.rb:15:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:155:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:154:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:281:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:281:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:264:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:264:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel.rb:264:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:281
+    /usr/bin/mongrel_rails:16:in `load'
+    /usr/bin/mongrel_rails:16
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemindblastController#index (for 127.0.0.1 at 2008-04-14 16:00:42) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"index", "controller"=>"remindblast"}
+Rendering remindblast/index
+Completed in 0.00731 (136 reqs/sec) | Rendering: 0.00504 (68%) | 200 OK [http://127.0.0.1/]
+
+
+Processing RemindblastController#index (for 127.0.0.1 at 2008-04-14 16:02:01) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"index", "controller"=>"remindblast"}
+Rendering remindblast/index
+Completed in 0.00729 (137 reqs/sec) | Rendering: 0.00483 (66%) | 200 OK [http://127.0.0.1/]
+
+
+Processing RemindblastController#index (for 127.0.0.1 at 2008-04-14 16:02:03) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"index", "controller"=>"remindblast"}
+Rendering remindblast/index
+Completed in 0.00590 (169 reqs/sec) | Rendering: 0.00352 (59%) | 200 OK [http://127.0.0.1/]
+
+
+Processing RemindblastController#index (for 127.0.0.1 at 2008-04-14 16:02:06) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"index", "controller"=>"remindblast"}
+Rendering remindblast/index
+Completed in 0.00633 (157 reqs/sec) | Rendering: 0.00378 (59%) | 200 OK [http://127.0.0.1/]
+
+
+Processing RemindblastController#index (for 127.0.0.1 at 2008-04-14 16:02:07) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"index", "controller"=>"remindblast"}
+Rendering remindblast/index
+Completed in 0.00617 (162 reqs/sec) | Rendering: 0.00389 (63%) | 200 OK [http://127.0.0.1/]
+
+
+Processing RemindblastController#index (for 127.0.0.1 at 2008-04-14 16:02:12) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"index", "controller"=>"remindblast"}
+Rendering remindblast/index
+Completed in 0.01396 (71 reqs/sec) | Rendering: 0.00396 (28%) | 200 OK [http://127.0.0.1/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-04-14 16:15:56) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"key"=>""}
+
+
+ActionController::RoutingError (No route matches "/rss/events/ckh" with {:method=>:get}):
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:155:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:281
+    /usr/bin/mongrel_rails:16:in `load'
+    /usr/bin/mongrel_rails:16
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+RemindblastController: missing default helper path remindblast_helper
+
+
+Processing RemindblastController#index (for 127.0.0.1 at 2008-04-14 16:41:23) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"index", "controller"=>"remindblast"}
+Rendering remindblast/index
+Completed in 0.00956 (104 reqs/sec) | Rendering: 0.00695 (72%) | 200 OK [http://127.0.0.1/]
+RemindblastController: missing default helper path remindblast_helper
+
+
+Processing RemindblastController#save (for 127.0.0.1 at 2008-04-14 16:41:46) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0f26972d5ce5664245e312867ca07b90b89b2875", "action"=>"save", "controller"=>"remindblast", "remind"=>{"name"=>"Tard Face", "start_time(1i)"=>"2008", "start_time(2i)"=>"4", "start_time(3i)"=>"14", "start_time(4i)"=>"17", "start_time(5i)"=>"00", "mobile_number"=>"4157105887", "description"=>"you are slow.", "time_zone"=>"Los Angeles", "email"=>""}}
+
+
+ActiveResource::ServerError (Failed with 500 Internal Server Error):
+    /vendor/rails/activeresource/lib/active_resource/connection.rb:124:in `handle_response'
+    /vendor/rails/activeresource/lib/active_resource/connection.rb:103:in `request'
+    /vendor/rails/activeresource/lib/active_resource/connection.rb:92:in `post'
+    /vendor/plugins/sponger/lib/sponger/authorization_token.rb:10:in `create'
+    /app/controllers/remindblast_controller.rb:70:in `init_session'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:469:in `send!'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:469:in `call'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:441:in `run'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:716:in `run_before_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:695:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:199:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:123:in `sass_old_process'
+    /Library/Ruby/Gems/1.8/gems/haml-1.8.1/lib/sass/plugin/rails.rb:15:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:388:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:155:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:154:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel.rb:264:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/../lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.1/bin/mongrel_rails:281
+    /usr/bin/mongrel_rails:16:in `load'
+    /usr/bin/mongrel_rails:16
+
+Rendering /Users/ckh/dev/remindblast/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+RemindblastController: missing default helper path remindblast_helper
+
+
+Processing RemindblastController#save (for 127.0.0.1 at 2008-04-14 16:44:04) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0f26972d5ce5664245e312867ca07b90b89b2875", "action"=>"save", "controller"=>"remindblast", "remind"=>{"name"=>"Tard Face", "start_time(1i)"=>"2008", "start_time(2i)"=>"4", "start_time(3i)"=>"14", "start_time(4i)"=>"17", "start_time(5i)"=>"00", "mobile_number"=>"4157105887", "description"=>"you are slow.", "time_zone"=>"Los Angeles", "email"=>""}}
+Rendering remindblast/list
+Completed in 8.09347 (0 reqs/sec) | Rendering: 0.00386 (0%) | 200 OK [http://127.0.0.1/remindblast/save]
+RemindblastController: missing default helper path remindblast_helper
+
+
+Processing RemindblastController#save (for 127.0.0.1 at 2008-04-14 16:49:26) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0f26972d5ce5664245e312867ca07b90b89b2875", "action"=>"save", "controller"=>"remindblast", "remind"=>{"name"=>"Tard Face", "start_time(1i)"=>"2008", "start_time(2i)"=>"4", "start_time(3i)"=>"14", "start_time(4i)"=>"17", "start_time(5i)"=>"00", "mobile_number"=>"4157105887", "description"=>"you are slow.", "time_zone"=>"Los Angeles", "email"=>""}}
+Rendering remindblast/list
+Completed in 21.53836 (0 reqs/sec) | Rendering: 0.00220 (0%) | 200 OK [http://127.0.0.1/remindblast/save]
+RemindblastController: missing default helper path remindblast_helper
+
+
+Processing RemindblastController#save (for 127.0.0.1 at 2008-04-14 16:50:10) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0f26972d5ce5664245e312867ca07b90b89b2875", "action"=>"save", "controller"=>"remindblast", "remind"=>{"name"=>"Tard Face", "start_time(1i)"=>"2008", "start_time(2i)"=>"4", "start_time(3i)"=>"14", "start_time(4i)"=>"17", "start_time(5i)"=>"00", "mobile_number"=>"4157105887", "description"=>"you are slow.", "time_zone"=>"Los Angeles", "email"=>""}}
+Rendering remindblast/list
+Completed in 25.92651 (0 reqs/sec) | Rendering: 0.00187 (0%) | 200 OK [http://127.0.0.1/remindblast/save]
+RemindblastController: missing default helper path remindblast_helper
+
+
+Processing RemindblastController#save (for 127.0.0.1 at 2008-04-14 16:51:46) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0f26972d5ce5664245e312867ca07b90b89b2875", "action"=>"save", "controller"=>"remindblast", "remind"=>{"name"=>"Tard Face", "start_time(1i)"=>"2008", "start_time(2i)"=>"4", "start_time(3i)"=>"14", "start_time(4i)"=>"17", "start_time(5i)"=>"00", "mobile_number"=>"4157105887", "description"=>"you are slow.", "time_zone"=>"Los Angeles", "email"=>""}}
+Rendering remindblast/list
+Completed in 6.16379 (0 reqs/sec) | Rendering: 0.00193 (0%) | 200 OK [http://127.0.0.1/remindblast/save]
+RemindblastController: missing default helper path remindblast_helper
+
+
+Processing RemindblastController#index (for 127.0.0.1 at 2008-04-14 16:52:27) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"index", "controller"=>"remindblast"}
+Rendering remindblast/index
+Completed in 0.01019 (98 reqs/sec) | Rendering: 0.00735 (72%) | 200 OK [http://127.0.0.1/]
+RemindblastController: missing default helper path remindblast_helper
+
+
+Processing RemindblastController#save (for 127.0.0.1 at 2008-04-14 16:52:51) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"0f26972d5ce5664245e312867ca07b90b89b2875", "action"=>"save", "controller"=>"remindblast", "remind"=>{"name"=>"Tards", "start_time(1i)"=>"2008", "start_time(2i)"=>"4", "start_time(3i)"=>"14", "start_time(4i)"=>"17", "start_time(5i)"=>"52", "mobile_number"=>"4157105887", "description"=>"you are very slow.", "time_zone"=>"Los Angeles", "email"=>""}}
+Rendering remindblast/list
+Completed in 3.62960 (0 reqs/sec) | Rendering: 0.00211 (0%) | 200 OK [http://127.0.0.1/remindblast/save]
+RemindblastController: missing default helper path remindblast_helper
+
+
+Processing RemindblastController#index (for 127.0.0.1 at 2008-04-14 16:53:53) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNzRhNWYyZGU3NmQ2YzE3NWE3YWY5YTFmNTg0MGJk%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--ddcc27a19ef222076ec58b844d0749257842326c
+  Parameters: {"action"=>"index", "controller"=>"remindblast"}
+Rendering remindblast/index
+Completed in 0.00607 (164 reqs/sec) | Rendering: 0.00382 (62%) | 200 OK [http://127.0.0.1/]

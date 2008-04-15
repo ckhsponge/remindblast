@@ -1,0 +1,40 @@
+=== Welcome to Spongewolf
+http://spongewolf.com
+
+This is an example Rails application that uses the Spongecell API. It is intended to be as simple as possible. There is no database and javascript will be kept to a minimum.
+
+Currently the primary function of Spongewolf is to create pretty calendar and event list widgets.
+
+There are 3 widgets
+1. Flash List View
+2. Flash Social Network Widget (used by Shakira)
+3. HTML Boxed Calendar
+
+== Features
+Creating a Spongecell account
+Viewing calendars
+Viewing events
+Creating a pre-defined event
+Creating pre-defined widgets
+
+== Feature Requests
+Calendar CRUD
+Event CRUD
+Widget CRUD
+
+Dependencies
+haml (must be included as a gem)
+Rails 2.0 (inclued in vendor so it will run on Media Temple)
+
+References
+http://spongecell.com
+http://spongecell.com/api/help
+
+The repository was created on February 26, 2008 git://github.com/ckhsponge/spongewolf.git
+
+For questions, comments or answers contact spongewolf@spongecell.com
+
+This product is *Beerware, if you like it buy yourself a beer.
+-Chris Hobbs, Spongecell
+
+*Beerware idea stolen from my BitTorrent client
