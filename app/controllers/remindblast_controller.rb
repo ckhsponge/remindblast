@@ -39,14 +39,30 @@ class RemindblastController < ApplicationController
     'Rome'
   ]
   
+  MESSAGES = [
+    'Take a shower, you stink!',
+    'Lay off the drugs, fool!',
+    'Do your damn laundry, it reeks!',
+    'Be sure to pay the rent!',
+    'Take your insulin before bed!',
+    'Go call your mother, she misses you!',
+    'Your anniversary is coming!',
+    'What, were you raised in a barn?',
+    'Don\'t go home with your ex-girlfriend.',
+    'Eat healthier, you\'re getting fat.',
+    'Other'
+  ]
+  
   def index
     
   end
   
   def save
     begin
-      description = title = params[:remind][:description]
-      description = "Hey #{params[:remind][:name]}, #{title}" if !params[:remind][:name].empty?
+      message = params[:remind][:message]
+      message = params[:remind][:custom_message] unless params[:remind][:custom_message].empty?
+      description = title = message
+      description = "Hey #{params[:remind][:name]}, #{title}" unless params[:remind][:name].empty?
       start_time = parse_time(params[:remind],:start_time)
       if !start_time || Time.now+1.minutes>=start_time
         flash.now[:note] = "Reminder time must be in the future!"

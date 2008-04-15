@@ -1,10 +1,17 @@
-%h1
-  Remind Blast
-- if flash[:note]
-  = h flash[:note]
-  %br
-%br
-= link_to "<- Go Back","/"
-%br
-%br
-<div style='width:500px;height:18px;background:#318BDE;'><a style='color:white;margin-left:5px;text-decoration:none;font-family:Helvetica,Arial;font-size:10pt;background-color:#318BDE;' href='http://spongecell.com/event_list'>Flash Calendar by Spongecell</a></div><div  style='width:500px;height:432px'><object type="application/x-shockwave-flash" allowScriptAccess="always" allowNetworking="all" height="450" width="500" data="http://spongecell.com/flash/download/4687/list_view.swf?imgHost=http%3A%2F%2Fstatics%2Espongecell%2Ecom%2Fcrossdomain%2Exml&w=4687&sTB=false&aU=http%3A%2F%2Fspongecell.com%2Fapi%2F&"  ><param name="allowScriptAccess" value="always"/><param name="allowNetworking" value="all"/><param name="movie" value="http://spongecell.com/flash/download/4687/list_view.swf?imgHost=http%3A%2F%2Fstatics%2Espongecell%2Ecom%2Fcrossdomain%2Exml&w=4687&sTB=false&aU=http%3A%2F%2Fspongecell.com%2Fapi%2F&"/></object></div>
+
+.outer-container
+  = image_tag "header_background.jpg"
+  
+  .inner-container    
+    .step 
+      - if flash[:note]
+      
+        = h flash[:note]
+        %br
+        %br
+      = link_to "<- Go Back","/"
+      %br
+      %br
+      <div style='width:500px;height:18px;background:#318BDE;'><a style='color:white;margin-left:5px;text-decoration:none;font-family:Helvetica,Arial;font-size:10pt;background-color:#318BDE;' href='http://spongecell.com/event_list'>Flash Calendar by Spongecell</a></div><div  style='width:500px;height:432px'><object type="application/x-shockwave-flash" allowScriptAccess="always" allowNetworking="all" height="450" width="500" data="http://spongecell.com/flash/download/4687/list_view.swf?imgHost=http%3A%2F%2Fstatics%2Espongecell%2Ecom%2Fcrossdomain%2Exml&w=4687&sTB=false&aU=http%3A%2F%2Fspongecell.com%2Fapi%2F&"  ><param name="allowScriptAccess" value="always"/><param name="allowNetworking" value="all"/><param name="movie" value="http://spongecell.com/flash/download/4687/list_view.swf?imgHost=http%3A%2F%2Fstatics%2Espongecell%2Ecom%2Fcrossdomain%2Exml&w=4687&sTB=false&aU=http%3A%2F%2Fspongecell.com%2Fapi%2F&"/></object></div>
+      %br
+      %br

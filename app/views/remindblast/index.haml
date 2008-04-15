@@ -1,6 +1,8 @@
 
 .outer-container
-  =image_tag "header_background.jpg"
+  = image_tag "header_background.jpg"
+  - if flash[:note]
+    = h flash[:note]
   
   .inner-container    
     - form_for :remind, nil, :url => {:action => 'save'} do |f|
@@ -12,10 +14,13 @@
         
         %br
         
-        %label Description
-        = select :remind, :description, ["Take a shower, you stink!", "Lay off the drugs!"]
+        %label Message
+        = select :remind, :message, RemindblastController::MESSAGES
 
         =image_tag "customized_messages.png"
+        
+        %label Custom Message
+        = f.text_field :custom_message
   
       .step
         =image_tag "step_two_header.png"
