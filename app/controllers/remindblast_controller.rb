@@ -43,6 +43,7 @@ class RemindblastController < ApplicationController
     'Take a shower, you stink!',
     'Lay off the drugs, fool!',
     'Do your damn laundry, it reeks!',
+    'Wake up! Get your ass out of bed!',
     'Be sure to pay the rent!',
     'Take your insulin before bed!',
     'Go call your mother, she misses you!',
