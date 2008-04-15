@@ -1,3 +1,13 @@
+<script>
+function checkSelected(sel) {
+var x = document.getElementById('custom_section');
+if(sel != 'Other') {
+x.style.display = "none";
+} else {
+x.style.display = "block";
+}
+}			
+</script>
 
 .outer-container
   = image_tag "header_background.jpg"
@@ -15,12 +25,13 @@
         %br
         
         %label Message
-        = select :remind, :message, RemindblastController::MESSAGES
+        = select :remind, :message, RemindblastController::MESSAGES, {}, {:class=>'message',:onchange=>"checkSelected(this.options[this.selectedIndex].value)"}
 
         =image_tag "customized_messages.png"
         
-        %label Custom Message
-        = f.text_field :custom_message
+        #custom_section
+          %label Custom Message
+          = f.text_field :custom_message
   
       .step
         =image_tag "step_two_header.png"
@@ -38,19 +49,20 @@
         %label Start
         = datetime_select :remind, :start_time
         %label Time Zone
-        = select :remind, :time_zone, RemindblastController::TIME_ZONES, :selected=>"Los Angeles"
+        = select :remind, :time_zone, RemindblastController::TIME_ZONES, {:selected=>"Los Angeles"}, {:class=>'time_zone'}
 
       .step-bottom
-        =image_tag "step_four_header.png"
+    
     
       .clearingDiv
     
-      .ctaRounded
-        .cta
-          = submit_tag "Sign up today"      
-          / = link_to 'Sign up today', marketing_path(:action => :sign_up), {:id => 'signUpButton'}
-          %p
-            By sending this blast, you agree to our
-            =link_to "Terms of Service"
-            ==.
+      #cta
+        #cta_wrapper
+          #cta_label
+            %p 
+              By submitting a blast, you agree to our 
+              =link_to "Terms of Service"
+          #cta_button
+            / = submit_tag "Sign up today"      
+            =image_submit_tag "/images/cta_button.png", :width => "207", :height => "32", :border => "0"
     

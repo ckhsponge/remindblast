@@ -50,6 +50,7 @@ class RemindblastController < ApplicationController
     'What, were you raised in a barn?',
     'Don\'t go home with your ex-girlfriend.',
     'Eat healthier, you\'re getting fat.',
+    'Pick up more toilet paper, groceries, and/or birth control',
     'Other'
   ]
   

@@ -7,7 +7,10 @@
 
 body {
 
-	font: verdana;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: ;
+	
 	background-image: url('/images/background_gradient.png');
 	background-color: #919191;
 	margin: 0;
@@ -17,7 +20,7 @@ body {
 	float: left;
 	padding: 16px;
 	width: 300px;
-	height: 300px;
+	height: 210px;
 }
 
 .step-bottom {
@@ -32,38 +35,61 @@ body {
 	clear: both;
 }
 
+/* Nik's othermsg */
+
+#othermsg {
+	background: url("/images/rb.png");
+	padding: 10px 10px 10px 53px;
+	width: 237px;
+	height: 45px;
+	font-size: 11px;
+	line-height: 14px;
+	font-family: Verdana;
+	color: #999;
+}
+
+#othermsg h3 {
+	color: #666;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0px 0px 5px 0px;
+}
+
+/* end Nik's othermsg */
+
 /* CTA Starts */
-.ctaRounded {
-  background-color: #D9D9D9;
-  margin-bottom: 3em;
-}
-.cta {
-  background-color: #D9D9D9;
-  padding: 0em 2em;
-  font-size: 1.2em;
-  /*line-height: 34px;*/
-}
-.cta a#signUpButton {
-  display: block;
-  float: right;
-  width: 207px;
-  height: 32px;
-  margin-top: 0.8em;
-  margin-left: 10px;
-  background: url(/images/promote/website/see/signUpButton.png) no-repeat 0 0;
-  text-indent: -10000px;
-}
-.cta p {
-  padding: 1.2em 0;
-  margin-bottom: 0;
+#cta {
+	background: url("/images/cta_bg.png");
+	width: 936px;
+	height: 31px;
+	padding: 11px 15px;
+	font-family: Verdana;
+	font-size: 14px;
+	color: #DDD;
 }
 
-.cta a#signUpButton:hover {
-  background-position: 0 -40px;
+#cta A {
+	color: #FFF;
 }
 
-#inUse .cta a {
-  margin-top: 1.6em;
+#cta_wrapper {
+	float: left;
+	width: 966px;
+}
+
+#cta_label {
+	width: 600px;
+	float: left;
+}
+
+#cta_label P {
+	margin: 5px 0px 0px 0px;
+}
+
+#cta_button {
+	width: 335px;
+	text-align: right;
+	float: left;
 }
 /* CTA Ends */
 
@@ -78,11 +104,11 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-weight: inherit;
+/*	font-weight: inherit;
 	font-style: inherit;
 	font-size: 100%;
 	font-family: inherit;
-	vertical-align: baseline;
+*/	vertical-align: baseline;
 }
 
 body { line-height: 1.5;}
@@ -101,13 +127,17 @@ a img { border: none; }
 
 
 /*styling forms from blueprint*/
-label { font-weight: bold; }
+label { display: block; }
 
 /* Fieldsets */
 fieldset    { padding:1.4em; margin: 0 0 1.5em 0; border: 1px solid #ccc; }
 legend      { font-weight: bold; font-size:1.2em; }
 
 /* Text fields */
+input {
+	margin: 0 0 .5em 0;
+}
+
 input.text, input.title   { width: 300px; margin:0.5em 0.5em 0.5em 0; }
 input.text, input.title   { border:1px solid #bbb; background:#f6f6f6; padding:5px; }
 input.text:focus,
@@ -120,7 +150,12 @@ textarea            { border:1px solid #bbb; background:#eee; padding:5px; }
 textarea:focus      { border:1px solid #999; background:#fff; }
 
 /* Select fields */
-select              { border:1px solid #ccc; background:#f6f6f6; width:200px; }
+select { border:1px solid #ccc; background:#f6f6f6; width:50px; }
+select:focus { border:1px solid #999; background:#fff; }
+select.message { width: 300px }
+select.time_zone { width: 150px }
+/* Select fields */
+select              { border:1px solid #ccc; background:#f6f6f6; width:50px; }
 select:focus        { border:1px solid #999; background:#fff; }
 
 
@@ -135,3 +170,8 @@ select:focus        { border:1px solid #999; background:#fff; }
 .notice a   { color: #817134; }
 .success a  { color: #529214; }
 /*end forms from blueprint*/
+
+#custom_section {
+		display: none;
+}
+ */
