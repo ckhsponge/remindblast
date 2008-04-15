@@ -54,7 +54,7 @@ class RemindblastController < ApplicationController
     'Sober self to future drunk self: Go home!',
     'In-laws arriving today, leave town.',
     'Leave the gun. Take the cannolis.',
-    'You\'re so money, and you don\'t even know it.'
+    'You\'re so money, and you don\'t even know it.',
     'Other'
   ]
   
