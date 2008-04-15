@@ -86,7 +86,7 @@ class RemindblastController < ApplicationController
       @event.save
       
       @reminder = Sponger::Reminder.create(:event_id=>@event.id,:minutes_before=>0,:email=>params[:remind][:email],:mobile_number=>params[:remind][:mobile_number])
-      flash.now[:note] = "Reminder saved."
+      #flash.now[:note] = "Reminder saved."
       render :action=>"list"
     rescue Exception=>exc
       flash.now[:note] = "An error has occurred: #{exc.to_s}"
