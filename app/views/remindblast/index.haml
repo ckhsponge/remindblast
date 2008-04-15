@@ -25,7 +25,7 @@ x.style.display = "block";
         %br
         
         %label Message
-        = select :remind, :message, RemindblastController::MESSAGES, {}, {:class=>'message',:onchange=>"checkSelected(this.options[this.selectedIndex].value)"}
+        = select :remind, :message, RemindblastController::MESSAGES, {:selected=>nil}, {:class=>'message',:onchange=>"checkSelected(this.options[this.selectedIndex].value)"}
 
         =image_tag "customized_messages.png"
         

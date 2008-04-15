@@ -51,6 +51,10 @@ class RemindblastController < ApplicationController
     'Don\'t go home with your ex-girlfriend.',
     'Eat healthier, you\'re getting fat.',
     'Pick up more toilet paper, groceries, and/or birth control',
+    'Sober self to future drunk self: Go home!',
+    'In-laws arriving today, leave town.',
+    'Leave the gun. Take the cannolis.',
+    'You\'re so money, and you don\'t even know it.'
     'Other'
   ]
   
