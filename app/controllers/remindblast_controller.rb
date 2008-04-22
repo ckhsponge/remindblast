@@ -1,5 +1,5 @@
 class RemindblastController < ApplicationController
-  before_filter :init_session, :only=>"save"
+  before_filter :init_token
   USER_NAME = ENV['USER_NAME']
   PASSWORD = ENV['PASSWORD']
   CALENDAR_ID = ENV['CALENDAR_ID']
@@ -23,27 +23,36 @@ class RemindblastController < ApplicationController
     'In-laws arriving today, leave town.',
     'Leave the gun. Take the cannolis.',
     'You\'re so money, and you don\'t even know it.',
-    'Cut my toenails and get a haircut.',
+    'Cut your toenails and get a haircut.',
     'Other'
   ]
   
   SPONSOR_URL = "http://spongecell.com"
   
   def index
-    
+    @reminder = ::Reminder.new(:start_time => Time.now + 5.minutes,:time_zone=>cookies[:time_zone])
+    session[:time_out] = Time.now
   end
   
   def save
     begin
-      message = params[:remind][:message]
-      message = params[:remind][:custom_message] unless params[:remind][:custom_message].empty?
+      message = params[:reminder][:message]
+      message = params[:reminder][:custom_message] unless params[:reminder][:custom_message].empty?
       description = title = message
-      description = "Hey #{params[:remind][:name]}, #{title}" unless params[:remind][:name].empty?
-      start_time = parse_time(params[:remind],:start_time)
-      if !start_time || Time.now+1.minutes>=start_time
-        flash.now[:time] = "Reminder time must be in the future!"
+      description = "Hey #{params[:reminder][:name]}, #{title}" unless params[:reminder][:name].empty?
+      start_time = parse_time(params[:reminder],:start_time)
+      @reminder = ::Reminder.new
+      @reminder.start_time = start_time
+      @reminder.load(params[:reminder])
+      @reminder.validate
+      unless @reminder.valid?
         render :action=>"index"
         return
+      end
+      cookies[:time_zone] = { :value => @reminder.time_zone, :expires => 6.months.from_now }
+      unless session[:time_out] && Time.now<session[:time_out]+5.minutes
+        session[:time_out] = Time.now
+        raise "Time out"
       end
       
       @event = Sponger::Event.new
@@ -51,12 +60,13 @@ class RemindblastController < ApplicationController
       @event.description = description
       @event.start_time = start_time
       @event.end_time = start_time + 1.minutes
-      @event.tzid = Sponger::TimeZone.tzid_from_human(params[:remind][:time_zone])
+      @event.tzid = Sponger::TimeZone.tzid_from_human(params[:reminder][:time_zone])
       @event.all_day = false
       @event.calendar_id = CALENDAR_ID
       @event.save
       
-      @reminder = Sponger::Reminder.create(:event_id=>@event.id,:minutes_before=>0,:email=>params[:remind][:email],:mobile_number=>params[:remind][:mobile_number])
+      @reminder.load(:event_id=>@event.id,:minutes_before=>0)
+      @reminder.save
       #flash.now[:note] = "Reminder saved."
       render :action=>"list"
     rescue Exception=>exc
@@ -65,11 +75,14 @@ class RemindblastController < ApplicationController
     end
   end
 
-  def init_session
+  def init_token
     #Sponger::Resource.clear_private_data
     #@signed_in = !!session[:spongewolf_token]
-    token = Sponger::AuthorizationToken.create(:user_name=>USER_NAME,:password=>PASSWORD)
-    Sponger::Resource.token = token
+    if !Sponger::Resource.token || Time.now > Sponger::Resource.token.expires_at
+      token = Sponger::AuthorizationToken.create(:user_name=>USER_NAME,:password=>PASSWORD)
+      token.expires_at = Time.now + 30.minutes
+      Sponger::Resource.token = token
+    end
   end
   
 end

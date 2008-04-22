@@ -10,6 +10,7 @@ class ApplicationController < ActionController::Base
   
   def parse_time(params,key)
     key = key.to_s
-    Time.local(params["#{key}(1i)"],params["#{key}(2i)"],params["#{key}(3i)"],params["#{key}(4i)"],params["#{key}(5i)"])
+    Time.local(params.delete("#{key}(1i)"),params.delete("#{key}(2i)"),params.delete("#{key}(3i)"),
+      params.delete("#{key}(4i)"),params.delete("#{key}(5i)"))
   end
 end

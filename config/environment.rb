@@ -42,7 +42,7 @@ Rails::Initializer.run do |config|
   # Make sure the secret is at least 30 characters and all random, 
   # no regular words or you'll be exposed to dictionary attacks.
   config.action_controller.session = {
-    :session_key => '_spongewolf_session',
+    :session_key => '_remindblast_session',
     :secret      => 'a2dc87a16eace1bc74b9658bf32b9ca2ff856b80660704cf74badef0ee4587a6169922b7c544a941fc0b6dde4405db97a432a5cfbe2163e4ad7d880e211119fb'
   }
 
