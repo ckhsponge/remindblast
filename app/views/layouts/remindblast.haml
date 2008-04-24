@@ -1,3 +1,4 @@
+- @hide_go_back_link ||= false
 %html
   %head
     %title
@@ -7,4 +8,32 @@
     =stylesheet_link_tag "remindblast"
   
   %body  
-    =yield
+    .outer-container
+      = image_tag "header_background.jpg"
+      .main-description
+        .header
+          Free your mind, go have fun, we'll blast your reminder when you need it.
+        RemindBlast lets you set reminders by email or text for anything in the future. Pick up groceries,
+        buy tickets or a birthday present, an important meeting, drinks with friends or a late night
+        rendezvous. Just enter your message and contact info, select date and time, hit send, and
+        we'll remind you when you need it.
+      .inner-container    
+        = error flash[:note]
+        =yield
+      .footer
+        %b
+          = link_to "Digg it!", "http://digg.com/gadgets/RemindBlast_can_remind_your_stinky_friend_it_s_time_to_bathe"
+        &nbsp;
+        &nbsp;
+        Sponsored by:
+        = link_to "Spongecell Online Calendars", "http://spongecell.com"
+        &nbsp;
+        == -
+        &nbsp;
+        = link_to "Learn more about RemindBlast", :action=>"about"
+        &nbsp;
+        &nbsp;
+        = link_to "See recent RemindBlasts", :action => "list"
+        - unless @hide_go_back_link
+          .go-back
+            = go_back_link

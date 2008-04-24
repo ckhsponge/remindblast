@@ -32,6 +32,7 @@ class RemindblastController < ApplicationController
   def index
     @reminder = ::Reminder.new(:start_time => Time.now + 5.minutes,:time_zone=>cookies[:time_zone])
     session[:time_out] = Time.now
+    @hide_go_back_link = true
   end
   
   def save
@@ -68,6 +69,7 @@ class RemindblastController < ApplicationController
       @reminder.load(:event_id=>@event.id,:minutes_before=>0)
       @reminder.save
       #flash.now[:note] = "Reminder saved."
+      @success = true
       render :action=>"list"
     rescue Exception=>exc
       flash.now[:note] = "An error has occurred: #{exc.to_s}"

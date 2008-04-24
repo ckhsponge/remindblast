@@ -1,3 +1,4 @@
+- @show_go_back_link = false
 <script>
 function checkSelected(sel) {
 var x = document.getElementById('custom_section');
@@ -9,63 +10,55 @@ x.style.display = "block";
 }			
 </script>
 
-.outer-container
-  = image_tag "header_background.jpg"
+- form_for :reminder, nil, :url => {:action => 'save'} do |f|
+  .step
+    =image_tag "step_one_header.png"    
+    = error @reminder.errors[:message]
+    %label Name
+    = f.text_field :name
+    
+    %br
+    
+    %label Message
+    = select :reminder, :message, RemindblastController::MESSAGES, {}, {:class=>'message',:onchange=>"checkSelected(this.options[this.selectedIndex].value)"}
+
+    =image_tag "customized_messages.png"
+    
+    #custom_section{:style=>@reminder.message==::Reminder::OTHER ? 'display:block;' : ''}
+      %label Custom Message
+      = f.text_field :custom_message
+
+  .step
+    =image_tag "step_two_header.png"
+    = error @reminder.errors[:destination]
+
+    %label SMS Number:
+    = f.text_field :mobile_number
+    %br
+    %p - or -
+    %br
+    %label Email
+    = f.text_field :email
   
-  .inner-container    
-    = error flash[:note]
-        
-    - form_for :reminder, nil, :url => {:action => 'save'} do |f|
-      .step
-        =image_tag "step_one_header.png"    
-        = error @reminder.errors[:message]
+  .step
+    =image_tag "step_three_header.png"
+    = error @reminder.errors[:start_time]
+    %label Date and Time
+    = datetime_select :reminder, :start_time
+    %label Time Zone
+    = select :reminder, :time_zone, RemindblastController::TIME_ZONES, {}, {:class=>'time_zone'}
 
-        %label Name
-        = f.text_field :name
-        
-        %br
-        
-        %label Message
-        = select :reminder, :message, RemindblastController::MESSAGES, {}, {:class=>'message',:onchange=>"checkSelected(this.options[this.selectedIndex].value)"}
+  .step-bottom
 
-        =image_tag "customized_messages.png"
-        
-        #custom_section{:style=>@reminder.message==::Reminder::OTHER ? 'display:block;' : ''}
-          %label Custom Message
-          = f.text_field :custom_message
-  
-      .step
-        =image_tag "step_two_header.png"
-        = error @reminder.errors[:destination]
 
-        %label SMS Number:
-        = f.text_field :mobile_number
-        %br
-        %p - or -
-        %br
-        %label Email
-        = f.text_field :email
-      
-      .step
-        =image_tag "step_three_header.png"
-        = error @reminder.errors[:start_time]
-        %label Date and Time
-        = datetime_select :reminder, :start_time
-        %label Time Zone
-        = select :reminder, :time_zone, RemindblastController::TIME_ZONES, {}, {:class=>'time_zone'}
+  .clearingDiv
 
-      .step-bottom
-    
-    
-      .clearingDiv
-    
-      #cta
-        #cta_wrapper
-          #cta_label
-            %p 
-              By submitting a blast, you agree to our 
-              =link_to "Terms of Service"
-          #cta_button
-            / = submit_tag "Sign up today"      
-            =image_submit_tag "/images/cta_button.png", :width => "207", :height => "32", :border => "0"
-    
+  #cta
+    #cta_wrapper
+      #cta_label
+        %p 
+          By submitting a blast, you agree to our 
+          =link_to "Terms of Service", :action => "terms"
+      #cta_button
+        / = submit_tag "Sign up today"      
+        =image_submit_tag "/images/cta_button.png", :width => "207", :height => "32", :border => "0"

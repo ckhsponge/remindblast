@@ -2,7 +2,7 @@
 
 .inner-container {
 	background-image: url('/images/inner_background_gradient.png');
-	height: 564px;
+	height: 464px;
 }
 
 body {
@@ -16,6 +16,26 @@ body {
 	margin: 0;
 }
 
+.main-description .header {
+	font-size: 130%;
+	padding-bottom: 5px;
+}
+.main-description {
+	padding: 13px;
+	color: #ffffff;
+	background-color: #426BA3;
+	height: 66px;
+}
+
+.information {
+	padding: 10px;
+	font-size: 120%;
+}
+
+.contributors {
+	padding-left: 20px;
+}
+
 .step {
 	float: left;
 	padding: 16px;
@@ -27,7 +47,7 @@ body {
 	float: left;
 	padding: 16px;
 	width: 300px;
-	height: 200px;
+	height: 100px;
 }
 
 
@@ -185,4 +205,18 @@ select:focus        { border:1px solid #999; background:#fff; }
 	line-height: 16px;
 	padding: 8px 10px 8px 54px;
 	margin:10px 0px;
+}
+
+.footer {
+	position: relative;
+	padding: 4px;
+	float: right;
+	width: 990px;
+	text-align: right;
+}
+.go-back {
+	position: absolute;
+	padding: 4px;
+	top: 0px;
+	left: 0px;
 }
