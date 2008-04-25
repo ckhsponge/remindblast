@@ -4,6 +4,7 @@ function checkSelected(sel) {
 var x = document.getElementById('custom_section');
 if(sel != 'Other') {
 x.style.display = "none";
+y.style.display = "none";
 } else {
 x.style.display = "block";
 }
@@ -14,6 +15,11 @@ x.style.display = "block";
   .step
     =image_tag "step_one_header.png"    
     = error @reminder.errors[:message]
+
+    #othermsg
+      %h3 Looking for a custom message?
+      Choose "Other" in the dropdown and write it your damn self.    
+
     %label Name
     = f.text_field :name
     
@@ -21,8 +27,6 @@ x.style.display = "block";
     
     %label Message
     = select :reminder, :message, RemindblastController::MESSAGES, {}, {:class=>'message',:onchange=>"checkSelected(this.options[this.selectedIndex].value)"}
-
-    =image_tag "customized_messages.png"
     
     #custom_section{:style=>@reminder.message==::Reminder::OTHER ? 'display:block;' : ''}
       %label Custom Message

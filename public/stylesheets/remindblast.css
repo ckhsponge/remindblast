@@ -60,6 +60,7 @@ body {
 #othermsg {
 	background: url("/images/rb.png");
 	padding: 10px 10px 10px 53px;
+	margin: 5px 0 5px 0;
 	width: 237px;
 	height: 45px;
 	font-size: 11px;
