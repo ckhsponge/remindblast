@@ -1,4 +1,5 @@
 - @hide_go_back_link ||= false
+- @onload ||= nil
 %html
   %head
     %title
@@ -7,7 +8,7 @@
     / app stylesheet
     =stylesheet_link_tag "remindblast"
   
-  %body  
+  %body{:onload=>@onload}
     .outer-container
       = image_tag "header_background.jpg"
       .main-description

@@ -8,6 +8,11 @@ module RemindblastHelper
     link_to "<- Go Back","/"
   end
   
+  def fmt_date(d)
+    return "" unless d
+    "#{d.mon}/#{d.day}/#{d.year}"
+  end
+  
 
 end    #
   # there are few ways to rid yourself of rails' insistence that datetime

@@ -33,6 +33,7 @@ class RemindblastController < ApplicationController
     @reminder = ::Reminder.new(:start_time => Time.now + 5.minutes,:time_zone=>cookies[:time_zone])
     session[:time_out] = Time.now
     @hide_go_back_link = true
+    @onload = "dataChanged()"
   end
   
   def save
@@ -42,18 +43,26 @@ class RemindblastController < ApplicationController
       description = title = message
       description = "Hey #{params[:reminder][:name]}, #{title}" unless params[:reminder][:name].empty?
       start_time = parse_time(params[:reminder],:start_time)
+      start_date = parse_date(params[:reminder][:start_date])
+      if start_date
+        start_time = Time.local(start_date.year,start_date.month,start_date.day,start_time.hour,start_time.min)
+      else
+        start_time = nil
+      end
       @reminder = ::Reminder.new
       @reminder.start_time = start_time
       @reminder.load(params[:reminder])
       @reminder.validate
       unless @reminder.valid?
+        @onload = "dataChanged()"
         render :action=>"index"
         return
       end
       cookies[:time_zone] = { :value => @reminder.time_zone, :expires => 6.months.from_now }
-      unless session[:time_out] && Time.now<session[:time_out]+5.minutes
+      unless session[:time_out] && Time.now<session[:time_out]+10.minutes
+        #this is session protection so robots can't use our service
         session[:time_out] = Time.now
-        raise "Time out"
+        raise "Time out. Please try again."
       end
       
       @event = Sponger::Event.new
@@ -73,6 +82,8 @@ class RemindblastController < ApplicationController
       render :action=>"list"
     rescue Exception=>exc
       flash.now[:note] = "An error has occurred: #{exc.to_s}"
+      @reminder = ::Reminder.new(:start_time => Time.now + 5.minutes,:time_zone=>cookies[:time_zone])
+      @onload = "dataChanged()"
       render :action=>"index"
     end
   end
