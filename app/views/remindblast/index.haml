@@ -1,15 +1,10 @@
 - @show_go_back_link = false
-<script>
-function checkSelected(sel) {
-var x = document.getElementById('custom_section');
-if(sel != 'Other') {
-x.style.display = "none";
-y.style.display = "none";
-} else {
-x.style.display = "block";
-}
-}			
-</script>
+
+= stylesheet_link_tag "http://yui.yahooapis.com/2.5.1/build/fonts/fonts-min.css"
+= stylesheet_link_tag "http://yui.yahooapis.com/2.5.1/build/calendar/assets/skins/sam/calendar.css"
+= javascript_include_tag "http://yui.yahooapis.com/2.5.1/build/yahoo-dom-event/yahoo-dom-event.js"
+= javascript_include_tag "http://yui.yahooapis.com/2.5.1/build/calendar/calendar-min.js"
+= javascript_include_tag "remindblast"
 
 - form_for :reminder, nil, :url => {:action => 'save'} do |f|
   .step
@@ -21,16 +16,23 @@ x.style.display = "block";
       Choose "Other" in the dropdown and write it your damn self.    
 
     %label Name
-    = f.text_field :name
+    = f.text_field :name, {:onchange=>"dataChanged()",:onkeyup=>"dataChanged()"}
     
     %br
     
     %label Message
-    = select :reminder, :message, RemindblastController::MESSAGES, {}, {:class=>'message',:onchange=>"checkSelected(this.options[this.selectedIndex].value)"}
+    = select :reminder, :message, RemindblastController::MESSAGES, {}, {:class=>'message',:onchange=>"dataChanged()"}
     
     #custom_section{:style=>@reminder.message==::Reminder::OTHER ? 'display:block;' : ''}
+      %br
       %label Custom Message
-      = f.text_field :custom_message
+      = f.text_field :custom_message, {:onchange=>"dataChanged()",:onkeyup=>"dataChanged()"}
+    #preview
+      %br
+      %label Preview
+      #preview_text
+        = h @reminder.message
+      
 
   .step
     =image_tag "step_two_header.png"
@@ -46,13 +48,18 @@ x.style.display = "block";
   
   .step
     =image_tag "step_three_header.png"
-    = error @reminder.errors[:start_time]
-    %label Date and Time
-    = datetime_select :reminder, :start_time
-    %label Time Zone
+    = error @reminder.errors[:time]
+    %label Time and Time Zone
+    = time_select :reminder, :start_time
+    = "-"
     = select :reminder, :time_zone, RemindblastController::TIME_ZONES, {}, {:class=>'time_zone'}
+    %br
+    %label Date
 
-  .step-bottom
+    .yui-skin-sam
+      = f.text_field :start_date, :value=>fmt_date(@reminder.start_date)
+      <div id="cal1Container"></div>
+  /.step-bottom
 
 
   .clearingDiv

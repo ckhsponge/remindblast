@@ -2,7 +2,6 @@
 
 .inner-container {
 	background-image: url('/images/inner_background_gradient.png');
-	height: 464px;
 }
 
 body {
@@ -32,6 +31,10 @@ body {
 	font-size: 120%;
 }
 
+#preview_text {
+	font-size: 120%;
+}
+
 .contributors {
 	padding-left: 20px;
 }
@@ -40,7 +43,6 @@ body {
 	float: left;
 	padding: 16px;
 	width: 300px;
-	height: 210px;
 }
 
 .step-bottom {
@@ -77,6 +79,8 @@ body {
 }
 
 /* end Nik's othermsg */
+
+#cal1Container { margin-right:10px;margin-bottom:10px }
 
 /* CTA Starts */
 #cta {
