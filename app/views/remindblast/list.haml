@@ -1,14 +1,35 @@
 - @success ||= false
-.step 
-  - if @success
-    = link_to(image_tag("success.png"),RemindblastController::SPONSOR_URL,:target=>"_blank")
-  - if flash[:note]
-  
-    = h flash[:note]
+
+- if @success
+  %br
+  #success
+    %img{ :src => "images/success.png", :width => "36", :height => "36", :title => "Success!" }
+    %strong Thanks for sending your blast!
     %br
-    %br
+    Take a second to check out
+    =link_to "Spongecell,", RemindblastController::SPONSOR_URL, { :popup => true }
+    or click here to 
+    =link_to "send another remindBlast", "/"
+
+- if flash[:note]
+  = h flash[:note]
   %br
-  %br
-  == <div style='width:966px;height:18px;background:#318BDE;'><a style='color:white;margin-left:5px;text-decoration:none;font-family:Helvetica,Arial;font-size:10pt;background-color:#318BDE;' href='http://spongecell.com/event_list'>Online Calendar by Spongecell</a></div><div  style='width:966px;height:332px'><object type="application/x-shockwave-flash" allowScriptAccess="always" allowNetworking="all" height="350" width="966" data="http://spongecell.com/flash/download/4687/list_view.swf?startDate=#{Date.today}&maxResults=100&imgHost=http%3A%2F%2Fstatics%2Espongecell%2Ecom%2Fcrossdomain%2Exml&w=4687&sTB=false&aU=http%3A%2F%2Fspongecell.com%2Fapi%2F&"  ><param name="allowScriptAccess" value="always"/><param name="allowNetworking" value="all"/><param name="movie" value="http://spongecell.com/flash/download/4687/list_view.swf?imgHost=http%3A%2F%2Fstatics%2Espongecell%2Ecom%2Fcrossdomain%2Exml&w=4687&sTB=false&aU=http%3A%2F%2Fspongecell.com%2Fapi%2F&"/></object></div>
-  %br
-  %br
+
+%br
+
+/ the awesome spongecell widget!
+#widget
+  <div style='width:966px;height:18px;background:#318BDE;'>
+  <a style='color:white;margin-left:5px;text-decoration:none;font-family:Helvetica,Arial;font-size:10pt;background-color:#318BDE;' href='http://spongecell.com/event_list'>
+  Online Calendar by Spongecell
+  </a>
+  </div>
+  <div style='width:966px;height:332px'>
+  <object type="application/x-shockwave-flash" allowScriptAccess="always" allowNetworking="all" height="350" width="966" data="http://spongecell.com/flash/download/4687/list_view.swf?startDate=#{Date.today}&maxResults=100&imgHost=http%3A%2F%2Fstatics%2Espongecell%2Ecom%2Fcrossdomain%2Exml&w=4687&sTB=false&aU=http%3A%2F%2Fspongecell.com%2Fapi%2F&">
+  <param name="allowScriptAccess" value="always"/>
+  <param name="allowNetworking" value="all"/>
+  <param name="movie" value="http://spongecell.com/flash/download/4687/list_view.swf?imgHost=http%3A%2F%2Fstatics%2Espongecell%2Ecom%2Fcrossdomain%2Exml&w=4687&sTB=false&aU=http%3A%2F%2Fspongecell.com%2Fapi%2F&"/>
+  </object>
+  </div>
+%br
+%br

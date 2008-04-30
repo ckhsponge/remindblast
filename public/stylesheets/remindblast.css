@@ -1,227 +1,287 @@
-.outer-container {width:1000px;margin:0 auto;}
-
-.inner-container {
-	background-image: url('/images/inner_background_gradient.png');
-}
 
 body {
-
+	background: url("/images/background.png") repeat-x;
+	background-color: #FFF;
+	color: #FFF;
 	font-family: Verdana;
-	font-size: 12px;
-	font-weight: ;
-	
-	background-image: url('/images/background_gradient.png');
-	background-color: #919191;
-	margin: 0;
+	font-size: 0.75em;
+	line-height: 16px;
+	margin: 0px;
 }
 
-.main-description .header {
-	font-size: 130%;
-	padding-bottom: 5px;
+/* begin layout styles */
+#frame {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
 }
-.main-description {
-	padding: 13px;
-	color: #ffffff;
+
+#header {
+	width: 1000px;
+	height: 129px;
+}
+
+#intro {
+	width: 970px;
+	height: 61px;
+	padding: 15px;
+	border-top: 1px solid #426BA3;
 	background-color: #426BA3;
-	height: 66px;
 }
 
-.information {
+#intro h1 {
+	margin: 0px 0px 14px 0px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#layout_error {
+	width: 950px;
 	padding: 10px;
-	font-size: 120%;
-}
-
-#preview_text {
-	font-size: 120%;
-}
-
-.contributors {
-	padding-left: 20px;
-}
-
-.step {
-	float: left;
-	padding: 16px;
-	width: 300px;
-}
-
-.step-bottom {
-	float: left;
-	padding: 16px;
-	width: 300px;
-	height: 100px;
-}
-
-
-.clearingDiv {
-	clear: both;
-}
-
-/* Nik's othermsg */
-
-#othermsg {
-	background: url("/images/rb.png");
-	padding: 10px 10px 10px 53px;
-	margin: 5px 0 5px 0;
-	width: 237px;
-	height: 45px;
+	margin: 0 auto;
+	border: 1px solid #D4A7AC;
+	background-color: #FFD4D9;
 	font-size: 11px;
 	line-height: 14px;
-	font-family: Verdana;
-	color: #999;
+	min-height: 26px;
 }
 
-#othermsg h3 {
-	color: #666;
-	font-size: 11px;
-	font-weight: bold;
-	margin: 0px 0px 5px 0px;
-}
-
-/* end Nik's othermsg */
-
-#cal1Container { margin-right:10px;margin-bottom:10px }
-
-/* CTA Starts */
-#cta {
-	background: url("/images/cta_bg.png");
-	width: 936px;
-	height: 31px;
-	padding: 11px 15px;
-	font-family: Verdana;
-	font-size: 14px;
-	color: #DDD;
-}
-
-#cta A {
-	color: #FFF;
-}
-
-#cta_wrapper {
+#layout_error img {
 	float: left;
-	width: 966px;
+	margin-top: -5px;
+	margin-right: 10px;
 }
 
-#cta_label {
-	width: 600px;
-	float: left;
-}
 
-#cta_label P {
-	margin: 5px 0px 0px 0px;
-}
-
-#cta_button {
-	width: 335px;
-	text-align: right;
-	float: left;
-}
-/* CTA Ends */
+/* end layout styles */
 
 
-/* reset block */
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, code,
-del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-	margin: 0;
-	padding: 0;
-	border: 0;
-/*	font-weight: inherit;
-	font-style: inherit;
-	font-size: 100%;
-	font-family: inherit;
-*/	vertical-align: baseline;
-}
+/* begin index styles */
 
-body { line-height: 1.5;}
+/*layout styles*/
 
-/* Tables still need 'cellspacing="0"' in the markup. */
-table { border-collapse: separate; border-spacing: 0; }
-caption, th, td { text-align: left; font-weight:400; }
-
-/* Remove possible quote marks (") from <q>, <blockquote>. */
-blockquote:before, blockquote:after, q:before, q:after { content: ""; }
-blockquote, q { quotes: "" ""; }
-
-a img { border: none; }
-/* end reset block */
-
-
-
-/*styling forms from blueprint*/
-label { display: block; }
-
-/* Fieldsets */
-fieldset    { padding:1.4em; margin: 0 0 1.5em 0; border: 1px solid #ccc; }
-legend      { font-weight: bold; font-size:1.2em; }
-
-/* Text fields */
-input {
-	margin: 0 0 .5em 0;
-}
-
-input.text, input.title   { width: 300px; margin:0.5em 0.5em 0.5em 0; }
-input.text, input.title   { border:1px solid #bbb; background:#f6f6f6; padding:5px; }
-input.text:focus,
-input.title:focus         { border:1px solid #999; background:#fff; }
-input.title               { font-size:1.5em; }
-
-/* Textareas */
-textarea            { width: 400px; height: 250px; margin:0.5em 0.5em 0.5em 0; }
-textarea            { border:1px solid #bbb; background:#eee; padding:5px; }
-textarea:focus      { border:1px solid #999; background:#fff; }
-
-/* Select fields */
-select { border:1px solid #ccc; background:#f6f6f6; width:50px; }
-select:focus { border:1px solid #999; background:#fff; }
-select.message { width: 300px }
-select.time_zone { width: 150px }
-/* Select fields */
-select              { border:1px solid #ccc; background:#f6f6f6; width:50px; }
-select:focus        { border:1px solid #999; background:#fff; }
-
-
-/* Success, error & notice boxes for messages and errors. */
-.error,
-.notice, 
-.success    { padding: .8em; margin-bottom: 1em; border: 2px solid #ddd; }
-.error      { background: #FBE3E4; color: #D12F19; border-color: #FBC2C4; }
-.notice     { background: #FFF6BF; color: #817134; border-color: #FFD324; }
-.success    { background: #E6EFC2; color: #529214; border-color: #C6D880; }
-.error a    { color: #D12F19; }
-.notice a   { color: #817134; }
-.success a  { color: #529214; }
-/*end forms from blueprint*/
-
-#custom_section {
-		display: none;
-}
-
-#error {
-	background: url("/images/errorbg.png");
-	width: 236px;
-	height: 34px;
+#wrapper {
+	background: url("/images/content_background.png") repeat-x;
+	background-color: #FFF;
 	color: #333;
-	font-family: Verdana;
-	font-size: 12px;
-	line-height: 16px;
-	padding: 8px 10px 8px 54px;
-	margin:10px 0px;
+ 	margin: 0 auto;
+ 	width: 1000px;
 }
 
-.footer {
-	position: relative;
-	padding: 4px;
-	float: right;
-	width: 990px;
-	text-align: right;
+#wrapper label {
+	margin: 15px 0 0 0;
+	font-weight: bold;
+	display: block;
 }
-.go-back {
-	position: absolute;
-	padding: 4px;
-	top: 0px;
-	left: 0px;
+
+#faux {
+ 	margin: 0;
+ 	overflow: auto; /* Paul O Brien Fix for IE www.pmob.co.uk */
+ 	width: 100%;
+}
+
+#leftcolumn { 
+	display: inline;
+ 	width: 231px;
+	margin: 15px 0px 0px 15px;
+ 	float: left;
+}
+
+#leftmiddle {
+	display: inline;
+	position: relative;
+ 	width: 231px;
+	margin: 15px 0px 0px 15px;
+	float: left;
+}
+
+#rightmiddle { 
+	display: inline;
+ 	position: relative;
+ 	width: 231px;
+	margin: 15px 0px 0px 15px;
+	float: left;
+}
+
+#rightcolumn { 
+	display: inline;
+ 	position: relative;
+ 	width: 231px;
+	margin: 15px 15px 0px 15px;
+ 	float: left;
+}
+
+/*shared styles*/
+div.clear {
+	clear: both;
+	background: none;
+}
+
+input.entry {
+	margin-top: 5px;
+	width: 227px;
+}
+
+select.entry {
+	margin-top: 5px;
+	width: 231px;
+}
+
+
+/*left column styles*/
+#error {
+	width: 209px;
+	padding: 10px;
+	margin: 15px 0;
+	border: 1px solid #D4A7AC;
+	background-color: #FFD4D9;
+	font-size: 11px;
+	line-height: 14px;
+	min-height: 30px;
+}
+
+#error img {
+	float: left;
+	margin-top: -5px;
+	margin-right: 10px;
+}
+
+#custom {
+	width: 209px;
+	padding: 10px;
+	margin: 15px 0;
+	border: 1px solid #D4D4A7;
+	background-color: #FFFFD4;
+	font-size: 11px;
+	line-height: 14px;
+}
+
+#custom img {
+	float: left;
+	margin-right: 10px;
+}
+
+#custom-message {
+	display: none;
+}
+
+/* right middle column styles */
+
+#rightmiddle select {
+	margin-top: 5px;
+}
+
+select#reminder_start_time_4i {
+	width: 62px;
+}
+
+select#reminder_start_time_5i {
+	width: 43px;
+}
+
+select.time_zone {
+	width:125px;	
+}
+
+#reminder_start_date {
+	width: 100px;
+}
+
+.yui-skin-sam .yui-calendar .calheader {
+	color: #333333;
+}
+
+/*right column styles*/
+#preview {
+	margin: 15px 0px 0px 0px;
+	padding: 130px 0px 0px 30px;
+	background: url("/images/iphone.png") no-repeat;
+	width: 202px;
+	height: 310px;
+}
+
+#preview-message {
+	width: 170px;
+	height: 61px;
+/*	display: none;*/
+}
+
+#preview-top {
+	background: url("/images/preview-top.png") no-repeat;
+	width: 170px;
+	height: 10px;
+}
+
+#preview-left {
+	float: left;
+	background: url("/images/preview-left.png") repeat-y;
+	width: 12px;
+	height: 61px;
+}
+
+#preview-bulk {
+	float: left;
+	background-color: #D1D1D1;
+	width: 151px;
+	height: 61px;
+}
+
+#preview-right {
+	float: left;
+	background: url("/images/preview-right.png") repeat-y;
+	width: 7px;
+	height: 61px;
+}
+
+#preview-bottom {
+	clear: both;
+	background: url("/images/preview-bottom.png") no-repeat;
+	width: 170px;
+	height: 10px;
+}
+
+#send {
+	margin-top: 90px;
+	display: none;
+}
+
+/*success bar styles*/
+div#success {
+	margin: 0px auto;
+	width: 946px;
+	padding: 10px;
+	font-size: 110%;
+	line-height: 18px;
+	color: #333;
+	background: url("/images/success_bg.png");
+	border: 1px solid #D4D4A7;
+}
+
+div#success img {
+	float: left;
+	margin-right: 10px;
+}
+
+div#success A {
+	color: #333;
+}
+
+/*list or success page styles*/
+
+#widget {
+	margin: 0 auto;
+}
+
+/*footer styles*/
+div#footer {
+	color: #333333;
+	margin: 50px 0px;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	padding: 7px 0px;
+	text-align: center;
+}
+
+div#footer A {
+	color: #666;
 }

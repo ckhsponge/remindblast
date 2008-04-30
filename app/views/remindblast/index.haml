@@ -1,75 +1,91 @@
 - @show_go_back_link = false
 
-= stylesheet_link_tag "http://yui.yahooapis.com/2.5.1/build/fonts/fonts-min.css"
-= stylesheet_link_tag "http://yui.yahooapis.com/2.5.1/build/calendar/assets/skins/sam/calendar.css"
+/ YUI stuff
 = javascript_include_tag "http://yui.yahooapis.com/2.5.1/build/yahoo-dom-event/yahoo-dom-event.js"
 = javascript_include_tag "http://yui.yahooapis.com/2.5.1/build/calendar/calendar-min.js"
+= javascript_include_tag "http://yui.yahooapis.com/2.5.1/build/animation/animation-min.js"
+
 = javascript_include_tag "remindblast"
 
-- form_for :reminder, nil, :url => {:action => 'save'} do |f|
-  .step
-    =image_tag "step_one_header.png"    
-    = error @reminder.errors[:message]
 
-    #othermsg
-      %h3 Looking for a custom message?
-      Choose "Other" in the dropdown and write it your damn self.    
 
-    %label Name
-    = f.text_field :name, {:onchange=>"dataChanged()",:onkeyup=>"dataChanged()"}
-    
-    %br
-    
-    %label Message
-    = select :reminder, :message, RemindblastController::MESSAGES, {}, {:class=>'message',:onchange=>"dataChanged()"}
-    
-    #custom_section{:style=>@reminder.message==::Reminder::OTHER ? 'display:block;' : ''}
-      %br
-      %label Custom Message
-      = f.text_field :custom_message, {:onchange=>"dataChanged()",:onkeyup=>"dataChanged()"}
-    #preview
-      %br
-      %label Preview
-      #preview_text
-        = h @reminder.message
-      
+- form_for :reminder, nil, :url => {:action => 'save'}, :html => {:id => "remindForm"} do |f|
 
-  .step
-    =image_tag "step_two_header.png"
-    = error @reminder.errors[:destination]
-
-    %label SMS Number:
-    = f.text_field :mobile_number
-    %br
-    %p - or -
-    %br
-    %label Email
-    = f.text_field :email
+  #faux
+    #leftcolumn
+      %img{ :src => "images/create.png", :width => "231", :height => "38", :title => "Step 1: Create Your Message" }
   
-  .step
-    =image_tag "step_three_header.png"
-    = error @reminder.errors[:time]
-    %label Time and Time Zone
-    = time_select :reminder, :start_time
-    = "-"
-    = select :reminder, :time_zone, RemindblastController::TIME_ZONES, {}, {:class=>'time_zone'}
-    %br
-    %label Date
+      - if @reminder.errors[:message]
+        #error
+          %img{ :src => "/images/error.png", :width => "36", :height => "36", :title => "Error" }
+          %strong Error
+          = @reminder.errors[:message]
+                          
+      %label Recipient            
+      = f.text_field :name, { :class => "entry", :onchange=>"createPreview()", :onkeyup=>"createPreview()" }
 
-    .yui-skin-sam
-      = f.text_field :start_date, :value=>fmt_date(@reminder.start_date)
-      <div id="cal1Container"></div>
-  /.step-bottom
+    
+      #custom
+        %img{ :src => "images/message.png", :width => "36", :height => "36", :title => "Custom Message" }
+        To send a custom message, choose 
+        %strong Other
+        from the dropdown.
+      
+      %label Message
+      = select :reminder, :message, RemindblastController::MESSAGES, {}, { :class=>'entry', :onchange=>"checkSelected(this.options[this.selectedIndex].value);createPreview()"}
+                
+      #custom-message{ :style=>"display: none;" }
+        %label Custom Message
+        = f.text_field :custom_message, {:type => "text", :class => "entry", :onchange=>"createPreview()",:onkeyup=>"createPreview()"}  
 
+    #leftmiddle
+      %img{ :src => "/images/contactinfo.png", :width => "231", :height => "38", :title => "Step 2: Enter Contact Info" }
+      
+      - if @reminder.errors[:destination]
+        #error
+          %img{ :src => "/images/error.png", :width => "36", :height => "36", :title => "Error" }
+          %strong Error:
+          = @reminder.errors[:destination]
+
+      %label SMS Number
+      = f.text_field :mobile_number, { :id => "sms", :class => "entry", :type => "text" }
+      
+      %label or Email Address
+      = f.text_field :email, { :id => "email", :class => "entry", :type => "text" }
+    
+      
+    #rightmiddle
+      %img{ :src => "/images/datetime.png", :width => "231", :height => "38", :title => "Step 3: Set Date and Time" }
+      
+      - if @reminder.errors[:time]
+        #error
+          %img{ :src => "/images/error.png", :width => "36", :height => "36", :title => "Error" }
+          %strong Error:
+          = @reminder.errors[:time]
+
+      %label Time and Time Zone
+      = time_select :reminder, :start_time, {:class => "time_hour"}
+      %br
+      = select :reminder, :time_zone, RemindblastController::TIME_ZONES, {}, {:class=>'time_zone'}
+      %label Date
+    
+      .yui-skin-sam
+        = f.text_field :start_date, :value=>fmt_date(@reminder.start_date)
+        #cal1Container
+
+
+    #rightcolumn
+      %img{ :src => "/images/preview.png", :width => "232", :height => "38", :title => "Step 4: Preview and Send" }
+
+      #preview        
+        #preview-message
+          #preview-top
+          #preview-left
+          #preview-bulk
+          #preview-right
+          #preview-bottom
+      
+        #send
+          %input{ :type => "image", :src => "/images/send.png", :width => "170", :height => "42", :title => "Click here to submit your Blast!", :border => "0" }
 
   .clearingDiv
-
-  #cta
-    #cta_wrapper
-      #cta_label
-        %p 
-          By submitting a blast, you agree to our 
-          =link_to "Terms of Service", :action => "terms"
-      #cta_button
-        / = submit_tag "Sign up today"      
-        =image_submit_tag "/images/cta_button.png", :width => "207", :height => "32", :border => "0"
