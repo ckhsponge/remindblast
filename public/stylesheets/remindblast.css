@@ -114,7 +114,7 @@ body {
 /*shared styles*/
 div.clear {
 	clear: both;
-	background: none;
+	background: block;
 }
 
 input.entry {
@@ -162,7 +162,7 @@ select.entry {
 }
 
 #custom-message {
-	display: none;
+	display: block;
 }
 
 /* right middle column styles */
@@ -224,6 +224,7 @@ select.time_zone {
 	background-color: #D1D1D1;
 	width: 151px;
 	height: 61px;
+	overflow: hidden;
 }
 
 #preview-right {
@@ -242,7 +243,7 @@ select.time_zone {
 
 #send {
 	margin-top: 90px;
-	display: none;
+	display: block;
 }
 
 /*success bar styles*/
@@ -284,4 +285,13 @@ div#footer {
 
 div#footer A {
 	color: #666;
+}
+
+.information {
+	padding:16px;
+	font-size: 14px;
+	line-height: 20px;
+}
+.contributors {
+	padding-left: 20px;
 }

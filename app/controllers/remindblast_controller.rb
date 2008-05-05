@@ -27,7 +27,7 @@ class RemindblastController < ApplicationController
     'Other'
   ]
   
-  SPONSOR_URL = "http://spongecell.com"
+  SPONSOR_URL = "http://spongecell.com/promote/website/affiliate/132211"
   
   def index
     @reminder = ::Reminder.new(:start_time => Time.now + 5.minutes,:time_zone=>cookies[:time_zone])

@@ -22,7 +22,7 @@
           = @reminder.errors[:message]
                           
       %label Recipient            
-      = f.text_field :name, { :class => "entry", :onchange=>"createPreview()", :onkeyup=>"createPreview()" }
+      = f.text_field :name, { :class => "entry", :onchange=>"dataChanged()", :onkeyup=>"dataChanged()" }
 
     
       #custom
@@ -32,11 +32,11 @@
         from the dropdown.
       
       %label Message
-      = select :reminder, :message, RemindblastController::MESSAGES, {}, { :class=>'entry', :onchange=>"checkSelected(this.options[this.selectedIndex].value);createPreview()"}
+      = select :reminder, :message, RemindblastController::MESSAGES, {}, { :class=>'entry', :onchange=>"dataChanged()"}
                 
-      #custom-message{ :style=>"display: none;" }
+      #custom_section{ :style=>"display: none;" }
         %label Custom Message
-        = f.text_field :custom_message, {:type => "text", :class => "entry", :onchange=>"createPreview()",:onkeyup=>"createPreview()"}  
+        = f.text_field :custom_message, {:type => "text", :class => "entry", :maxlength=>100, :onchange=>"dataChanged()",:onkeyup=>"dataChanged()"}  
 
     #leftmiddle
       %img{ :src => "/images/contactinfo.png", :width => "231", :height => "38", :title => "Step 2: Enter Contact Info" }

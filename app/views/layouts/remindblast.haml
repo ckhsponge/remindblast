@@ -15,7 +15,10 @@
 
     #frame
       #header
-        %img{ :src => "/images/header.png", :usemap => "#map", :width => "1000", :height => "129", :alt => "Welcome to RemindBlast - a free service of Spongecell.", :title => "Welcome to RemindBlast - a free service of Spongecell.", :border => "0" }
+        = image_tag( "/images/header.png", :usemap => "header_map", :width => "1000", :height => "129", :alt => "Welcome to RemindBlast - a free service of Spongecell.", :title => "Welcome to RemindBlast - a free service of Spongecell.", :border => "0")
+        %map{:name => "header_map"}
+          %area{:shape => "rect",:coords => "0,0,300,300",:href => "/"}
+          %area{:shape => "rect",:coords => "700,0,1000,300",:href => RemindblastController::SPONSOR_URL}
     
       #intro
         %h1 Free your mind, go have fun, we'll blast your reminder when you need it.
@@ -34,12 +37,15 @@
     #footer
       =link_to "Digg it!", "http://digg.com/gadgets/RemindBlast_can_remind_your_stinky_friend_it_s_time_to_bathe"
       |
-      =link_to "Learn more about remindBlast", "about.html?height=300&width=300", { :title => "About remindBlast", :class => "thickbox"} 
+      =link_to "Learn more about remindBlast", {:action=>"about"}, { :title => "About remindBlast", :class => "thickbox"} 
       |
-      =link_to "See recent remindBlasts", "recent.html?height=366&width=966", { :title => "Recent remindBlasts", :class => "thickbox" } 
+      =link_to "See recent remindBlasts", {:action=>"list"}, { :title => "Recent remindBlasts", :class => "thickbox" } 
       | Powered by Ruby, YUI, and C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub> 1,3,7-trimethylxanthine
       %br
-      &copy; 2008 Spongecell. By sending a blast, you agree to our 
+      Sponsored by
+      = link_to "Spongecell", RemindblastController::SPONSOR_URL
+      %br
+      &copy; 2008 Spongecell. By sending a blast, you agree to the 
       =link_to "Terms of Service", "http://spongecell.com/legal/terms", { :popup => true }   
 
     /   = link_to "See recent RemindBlasts", :action => "list"

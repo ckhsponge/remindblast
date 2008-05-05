@@ -2,13 +2,15 @@
   %h1
     Thanks for using RemindBlast!
   %p
-    RemindBlast was built in one day using the
+    RemindBlast was built using the
     = link_to "Spongecell API", "http://spongecell.com/api"
     with the
     = link_to "Sponger toolkit", "http://code.google.com/p/sponger/"
-    and ActiveResource with Ruby on Rails 2.0.
+    and ActiveResource with Ruby on Rails 2.0. You can view the
+    = link_to "open source project.", "http://github.com/ckhsponge/remindblast"
+  %br
   %p
-    Contributors
+    Authors
     .contributors
       %ul
         %li
@@ -21,9 +23,10 @@
           David Passiak
         %li
           Kevin Trowbridge
+  %br
   %p
     Visit Spongecell for the best
-    = link_to "online calendars and event promotion", "http://spongecell.com"
+    = link_to "online calendars and event promotion", RemindblastController::SPONSOR_URL
     tools in existence.
   %p
     To subscribe to the latest news and updates about RemindBlast text 
