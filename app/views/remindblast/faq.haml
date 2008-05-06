@@ -1,0 +1,13 @@
+.information
+  %h1
+    Frequently Asked Questions
+  - for faq in RemindblastController::FAQ
+    %p
+      %b
+        Q.
+      = h faq[0]
+    %p
+      %b
+        A.
+      = h faq[1]
+    %br

@@ -27,6 +27,18 @@ class RemindblastController < ApplicationController
     'Other'
   ]
   
+  FAQ = [
+    ["What can I do with RemindBlast?","RemindBlast reminds you to walk the dog, move your car for parking, and reminds your smelly friend about the importance of hygiene."],
+    ["Can I use RemindBlast to spam my friends about worthless things they don't want to hear about?","No. You absolutely cannot do that."],
+    ["RemindBlast is incredible. How can I pay you for this fantastic service?","Knowing that you are waking up and making it to work on time is all the payment we need."],
+    ["If I have a hot date at 8pm with someone I haven't met yet what time should I set a RemindBlast for?","Set the RemindBlast for 6pm so you will have time to cut your toe nails, wax your hair and troll for alternates on craigslist in case things don't go well."],
+    ["What's the difference between Neil Armstrong and Michael Jackson?","Neil Armstrong walked on the moon and Michael Jackson does weird things to... does the moon walk."],
+    ["How do I find out what other people are RemindBlasting?","You can click on the RSS icon in your browser URL bar to see what other people are reminding but that's sort of creepy. Maybe you should stick to your reminders."],
+    ["My girlfriend seems to be unpleasant to be around about every four weeks. Can I use RemindBlast to warn me about this?","A woman's cycle transcends any machine based predictability. Please try to be more understanding."],
+    ["I hate you. Go to hell. I'm never sending another RemindBlast as long as I live.","Please try to phrase that as a question."],
+    ["What should I do if I can't think of a good RemindBlast at the moment?","Set a RemindBlast for 5 minutes from now: remember to think of a good RemindBlast."]
+  ]
+  
   SPONSOR_URL = "http://spongecell.com/promote/website/affiliate/132211"
   RSS_URL = "http://spongecell.com/rss/events/remindblast/Remind+Blasts"
   ICAL_URL = "http://spongecell.com/ics/calendar/remindblast/Remind+Blasts.ics"
