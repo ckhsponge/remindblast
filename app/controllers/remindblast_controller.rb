@@ -28,6 +28,11 @@ class RemindblastController < ApplicationController
   ]
   
   SPONSOR_URL = "http://spongecell.com/promote/website/affiliate/132211"
+  RSS_URL = "http://spongecell.com/rss/events/remindblast/Remind+Blasts"
+  ICAL_URL = "http://spongecell.com/ics/calendar/remindblast/Remind+Blasts.ics"
+  WEBCAL_URL = "webcal://spongecell.com/ics/calendar/remindblast/Remind+Blasts.ics"
+  CONTACT_EMAIL = "remindblast@spongecell.com"
+  
   
   def index
     @reminder = ::Reminder.new(:start_time => Time.now + 5.minutes,:time_zone=>cookies[:time_zone])

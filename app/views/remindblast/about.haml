@@ -33,3 +33,14 @@
     %b
       Go RemindBlast
     to SPONGE (776643).
+  %p
+    You may also subscribe to the 
+    = link_to "RSS", RemindblastController::RSS_URL
+    feed,
+    = link_to "Webcal", RemindblastController::WEBCAL_URL
+    feed or download all reminders as an
+    = link_to "ICAL", RemindblastController::ICAL_URL
+    file.
+  %p
+    To report abuse, unsubscribe, or for general information please send email to
+    = mail_to RemindblastController::CONTACT_EMAIL, RemindblastController::CONTACT_EMAIL, :encode=>"javascript"
