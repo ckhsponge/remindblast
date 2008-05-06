@@ -19,4 +19,13 @@ class ApplicationController < ActionController::Base
     return nil unless pd && pd[0] && pd[1] && pd[2]
     Date.new(*pd)
   end
+  
+  def parse_date_time(s)
+    #puts "parse_date_time: #{s}"
+    pd = ParseDate.parsedate(s)[0,5]
+    return nil unless pd && pd[0] && pd[1] && pd[2] && pd[3] && pd[4]
+    time = Time.local(*pd)
+    #puts time.to_s
+    return time
+  end
 end

@@ -42,13 +42,14 @@ class RemindblastController < ApplicationController
       message = params[:reminder][:custom_message] unless params[:reminder][:custom_message].empty?
       description = title = message
       description = "Hey #{params[:reminder][:name]}, #{title}" unless params[:reminder][:name].empty?
-      start_time = parse_time(params[:reminder],:start_time)
-      start_date = parse_date(params[:reminder][:start_date])
-      if start_date
-        start_time = Time.local(start_date.year,start_date.month,start_date.day,start_time.hour,start_time.min)
-      else
-        start_time = nil
-      end
+#      start_time = parse_time(params[:reminder],:start_time)
+#      start_date = parse_date(params[:reminder][:start_date])
+#      if start_date
+#        start_time = Time.local(start_date.year,start_date.month,start_date.day,start_time.hour,start_time.min)
+#      else
+#        start_time = nil
+#      end
+      start_time = parse_date_time("#{params[:reminder][:start_date]} #{params[:reminder][:start_time_human]}")
       @reminder = ::Reminder.new
       @reminder.start_time = start_time
       @reminder.load(params[:reminder])

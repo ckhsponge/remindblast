@@ -26,6 +26,13 @@ function dataChanged() {
  	  x.style.display = "block";
  	}
  }
+ 
+ function showCalendar() {
+ 	document.getElementById('cal1Container').style.display='block';
+ }
+ function hideCalendar() {
+ 	setTimeout("document.getElementById('cal1Container').style.display='none'",500);
+ }
 
 /**
  * @author ckh

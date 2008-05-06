@@ -20,6 +20,11 @@ class Reminder < Sponger::Reminder
     return Date.new(self.start_time.year,self.start_time.month,self.start_time.day)
   end
   
+  def start_time_human
+    return nil unless self.start_time
+    self.start_time.strftime("%I:%M %p")
+  end
+  
   def validate
     unless self.start_time
       errors.add "time","Invalid date or time." 

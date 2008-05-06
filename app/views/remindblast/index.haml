@@ -64,14 +64,15 @@
           = @reminder.errors[:time]
 
       %label Time and Time Zone
-      = time_select :reminder, :start_time, {:class => "time_hour"}
+      /= time_select :reminder, :start_time, {:class => "time_hour"}
+      = f.text_field :start_time_human, {:class => "time_hour"}
       %br
       = select :reminder, :time_zone, RemindblastController::TIME_ZONES, {}, {:class=>'time_zone'}
       %label Date
     
       .yui-skin-sam
-        = f.text_field :start_date, :value=>fmt_date(@reminder.start_date)
-        #cal1Container
+        = f.text_field :start_date, :value=>fmt_date(@reminder.start_date), :onfocus=>"showCalendar()", :onblur=>"hideCalendar()"
+        #cal1Container{:style=>"display:none"}
 
 
     #rightcolumn
