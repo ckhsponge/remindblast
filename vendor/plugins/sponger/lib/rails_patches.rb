@@ -48,6 +48,7 @@ class ActiveResource::Base
   
   #ckh interpretation of http://dev.rubyonrails.org/ticket/8566
   def load(attributes)
+    return attributes if attributes && attributes.kind_of?(String)
     raise ArgumentError, "expected an attributes Hash, got #{attributes.inspect}" unless attributes.is_a?(Hash)
     @prefix_options, attributes = split_options(attributes)
     attributes.each do |key, value|
